@@ -78,7 +78,7 @@
             @input="handleEditItem"
         >
 			<template #actions>
-				<div 
+				<div
 					@click="handleNextItem"
 					v-tooltip.bottom="'Next Item'"
 					:class="{'disable-button-next-pre' : disableNextItem}"
@@ -86,7 +86,7 @@
 				>
 					<v-icon name="keyboard_arrow_down"/>
 				</div>
-				<div 
+				<div
 					@click="handlePreItem"
 					v-tooltip.bottom="'Previous Item'"
 					:class="{ 'disable-button-next-pre' : disablePrevItem}"
@@ -220,7 +220,7 @@ const editTitle = ref('');
 const editValue = ref('')
 function openEditGroup(group: Group) {
 	console.log('group',group);
-	
+
 	editDialogOpen.value = group.id;
 	editTitle.value = group.title;
 	editValue.value = group.id
@@ -282,7 +282,7 @@ function checkRequiredValue() {
 }
 
 function saveChanges() {
-	const isIdDuplicate  = props?.groupedItems.some(obj => obj.id === editValue.value)	
+	const isIdDuplicate  = props?.groupedItems.some(obj => obj.id === editValue.value)
 	if(!editTitle.value) {
 		showRequiredTitleGroup.value = true
 	}
@@ -314,12 +314,12 @@ function handleOpenDrawerCreateItem (fieldValue: string) {
 	edits.value = {
 		[field.value.field]: fieldValue,
 	}
-	
+
 	openDrawerCreateItem.value = true
 }
 const dataItemCreated = ref({})
 async function handleCreateItem(data: any) {
-	
+
 	if (!data) return;
 	try {
 		reloadGroup.value = false;
@@ -329,7 +329,7 @@ async function handleCreateItem(data: any) {
 		notify({
             title: `Successfully created ${data.title} item`
         });
-		
+
 	} catch (error) {
 		notify({
             title: error
@@ -345,7 +345,7 @@ const disableNextItem = ref(false);
 function handleOpenDrawerEditItem(items: Array, item: Object, index: Number) {
 	listItems.value = items
 	valueIndex.value = index
-	
+
 	if (listItems.value.length === 1) {
 		disablePrevItem.value = true;
 		disableNextItem.value = true;
@@ -360,7 +360,7 @@ function handleOpenDrawerEditItem(items: Array, item: Object, index: Number) {
 		disablePrevItem.value = false;
 		disableNextItem.value = false;
 	}
-	
+
 	Object.keys(item).forEach((key) => {
 		edits.value[key] = item[key];
 	});
@@ -397,12 +397,12 @@ async function handleOpenDrawerChangeLog (item: Item) {
 				}
 			})
 			e['dataUserUpdate'] = resUserUpdate.data.data
-			
-		}	
+
+		}
 	})
 	console.log('listRevisions.value',listRevisions.value);
 	openChangeLog.value = true
-	
+
 }
 
 const detailRevisionSubtitle = ref('')
@@ -410,7 +410,7 @@ const detailRevisionDataChange = ref({})
 
 function handleOpenChangeLogDetail(item, index) {
 	detailRevisionSubtitle.value = `${formatDateTime(item?.activity?.timestamp)} by ${item?.activity?.user?.email}`
-	
+
 	const differences = [];
 
 	for (let key in item?.data) {
@@ -418,8 +418,8 @@ function handleOpenChangeLogDetail(item, index) {
 			const oldValue = item?.data[key];
 			const newValue = listRevisions.value[index + 1]?.data[key];
 
-			if ((oldValue !== newValue) && 
-				((oldValue !== null && oldValue !== undefined) || 
+			if ((oldValue !== newValue) &&
+				((oldValue !== null && oldValue !== undefined) ||
 				(newValue !== null && newValue !== undefined))) {
 			differences.push({ key, oldValue, newValue });
 			}
@@ -431,7 +431,7 @@ function handleOpenChangeLogDetail(item, index) {
 			const oldValue = null;
 			const newValue = listRevisions.value[index + 1]?.data[key];
 
-			if (!item?.data.hasOwnProperty(key) && 
+			if (!item?.data.hasOwnProperty(key) &&
 				((newValue !== null && newValue !== undefined))) {
 			differences.push({ key, oldValue, newValue });
 			}
@@ -509,12 +509,28 @@ const choices = computed<{ text: string }[]>(
 	gap: var(--content-padding);
 }
 .kanboard {
+	--kb-height: calc(100% - 65px - 2 * 24px);
+	--kb-container-padding: 24px;
+	--kb-column-background: #eee;
+	--kb-column-border-width: 1px;
+	--kb-column-border-color: #ddd;
+	--kb-column-border-color-active: #aaa;
+	--kb-column-border-style: solid;
+	--kb-column-border-radius: 4px;
+	--kb-card-background: #ccc;
+	--kb-card-border-width: var(--kb-column-border-width);
+	--kb-card-border-color: #aaa;
+	--kb-card-border-style: var(--kb-column-border-style);
+	--kb-card-border-radius: var(--kb-column-border-radius);
+	--kb-add-group-background: #eee;
+
 	display: flex;
-	height: calc(100% - 65px - 2 * 24px);
-	padding: 0px 32px 24px 32px;
+	height: var(--kb-height);
+	padding: var(--kb-container-padding);
 	overflow-x: auto;
 	overflow-y: hidden;
 	--user-spacing: 16px;
+
 
 	.draggable {
 		display: flex;
@@ -524,14 +540,14 @@ const choices = computed<{ text: string }[]>(
 			flex-direction: column;
 			width: 320px;
 			padding: 8px 0;
-			background-color: var(--theme--background-subdued);
-			border: var(--theme--border-width) solid var(--theme--form--field--input--border-color);
-			border-radius: var(--theme--border-radius);
+			background-color: var(--kb-column-background);
+			border: var(--kb-column-border-width) var(--kb-column-border-style) var(--kb-column-border-color);
+			border-radius: var(--kb-column-border-radius);
 			margin-right: 20px;
 			transition: border-color var(--transition) var(--fast);
 
 			&:active {
-				border-color: var(--theme--form--field--input--border-color-hover);
+				border-color: var(--kb-column-border-color-active);
 				cursor: move;
 			}
 		}
@@ -570,7 +586,7 @@ const choices = computed<{ text: string }[]>(
 	height: 44px;
 	display: flex;
 	align-items: center;
-	background-color: var(--background-normal-alt);
+	background-color: var(--kb-add-group-background);
 	padding: 14px 0;
 	padding-left: 12px;
 	border-radius: 4px;

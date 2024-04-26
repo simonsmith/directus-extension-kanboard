@@ -1,11 +1,11 @@
 <template>
     <section class="card drag-handle">
         <header>
-            <v-image 
-                v-if="item?.[layoutOptions?.imageSource]" 
-                class="render-thumbnail" 
+            <v-image
+                v-if="item?.[layoutOptions?.imageSource]"
+                class="render-thumbnail"
                 :class="{'card-image-fill': layoutOptions?.crop}"
-                :src="partImage(item?.[layoutOptions?.imageSource])" 
+                :src="partImage(item?.[layoutOptions?.imageSource])"
             />
             <display-formatted-value
                 type="text"
@@ -15,11 +15,11 @@
             ></display-formatted-value>
             <v-menu show-arrow v-if="isShowMenuCard">
                     <template #activator="{ toggle, active }">
-                        <v-button 
+                        <v-button
                             class="button-edit-item"
                             v-tooltip.bottom="'Edit Item'"
                             :class="{ active }"
-                            @click.stop="toggle" 
+                            @click.stop="toggle"
                             icon
                         >
                         <v-icon name="edit" />
@@ -164,12 +164,12 @@ async function handleConfirmDelete(item: Object) {
     gap: 12px;
     flex-grow: 1;
     min-height: 100%;
-    border-radius: 4px;
+    border-radius: var(--kb-card-border-radius);
     box-shadow: 0px 1px 4px 0px rgba(var(--card-shadow-color), 0.05);
-    background-color: var(--theme--background);
+    background-color: var(--kb-card-background);
     align-items: stretch;
     cursor: pointer;
-    border: 1px solid var(--theme--form--field--input--border-color)
+    border: var(--kb-card-border-width) var(--kb-card-border-style) var(--kb-card-border-color);
 }
 .card:hover .card-title {
     text-decoration-line: underline
@@ -192,10 +192,6 @@ async function handleConfirmDelete(item: Object) {
 }
 
 header {
-    /* display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    gap: 16px; */
     font-weight: 700;
     position: relative;
 }
