@@ -500,20 +500,13 @@ const choices = computed<{ text: string }[]>(
 	() => field.value?.meta?.options?.choices || []
 );
 </script>
-<style scoped>
-.boards-layout {
-	padding: var(--content-padding);
-	padding-top: 0;
-	display: flex;
-	align-items: stretch;
-	gap: var(--content-padding);
-}
-.kanboard {
+<style>
+:root {
 	--kb-height: calc(100% - 65px - 2 * 24px);
 	--kb-container-padding: 24px;
 	--kb-column-background: #eee;
 	--kb-column-border-width: 1px;
-	--kb-column-border-color: #ddd;
+	--kb-column-border-color: #eee;
 	--kb-column-border-color-active: #aaa;
 	--kb-column-border-style: solid;
 	--kb-column-border-radius: 4px;
@@ -523,7 +516,19 @@ const choices = computed<{ text: string }[]>(
 	--kb-card-border-style: var(--kb-column-border-style);
 	--kb-card-border-radius: var(--kb-column-border-radius);
 	--kb-add-group-background: #eee;
+}
+</style>
 
+<style scoped>
+.boards-layout {
+	padding: var(--content-padding);
+	padding-top: 0;
+	display: flex;
+	align-items: stretch;
+	gap: var(--content-padding);
+}
+
+.kanboard {
 	display: flex;
 	height: var(--kb-height);
 	padding: var(--kb-container-padding);
