@@ -7,8 +7,8 @@
                 <div class="capitalize" @click="valueOpenEditGroupTitle = true">{{ groupTitle }}</div>
             </div>
             <div class="flex relative">
-                <v-button 
-                    class="button-header" 
+                <v-button
+                    class="button-header"
                     @click="handleCreateItem"
                     v-tooltip.bottom="t('kanboard.card.create_item')"
                     icon
@@ -17,22 +17,22 @@
                 </v-button>
                 <v-menu show-arrow>
                     <template #activator="{ toggle, active }">
-                        <v-button 
+                        <v-button
                             class="button-header"
                             :class="{ active }"
                             @click="toggle"
-                            v-tooltip.bottom="t('kanboard.group.edit_group')" 
+                            v-tooltip.bottom="t('kanboard.group.edit_group')"
                             icon
                         >
                             <v-icon name="more_vert" />
                         </v-button>
                     </template>
                     <v-list @click="emit('editGroup')" class="hover:text-[var(--project-color)] list-menu-item">
-                        <v-icon name="edit" class="icon-menu"/> 
+                        <v-icon name="edit" class="icon-menu"/>
                         <span class="text-14px ml-5px">{{ t('kanboard.group.edit_group') }}</span>
                     </v-list>
                     <v-list @click="handleDeleteGroup" class="hover:text-[var(--theme--danger)] list-menu-item">
-                        <v-icon name="delete" class="icon-menu"/> 
+                        <v-icon name="delete" class="icon-menu"/>
                         <span class="text-14px ml-5px">{{ t('kanboard.group.delete_group') }}</span>
                     </v-list>
                 </v-menu>
@@ -65,18 +65,6 @@
                 </template>
             </draggable>
         </main>
-        <div
-            v-if="totalPages > 1"
-            class="pagination mt-auto"
-        >
-            <v-pagination
-                :length="totalPages"
-                :total-visible="3"
-                show-first-last
-                :model-value="page"
-                @update:model-value="page = $event"
-            />
-        </div>
     </section>
 </template>
 <script setup lang="ts">
@@ -94,7 +82,6 @@ interface Props {
 	page?: number | null;
 	filter?: Filter | null;
 	search?: string | null;
-	limit?: number | null;
 	sort?: string | null;
 	totalPages?: number | null;
 	field?: string | null;
@@ -124,7 +111,6 @@ const props = withDefaults(defineProps<Props>(), {
     primaryKeyField: null,
 	filter: null,
 	search: null,
-	limit: 5,
 	sort: null,
 	isRefresh: false,
 
@@ -182,12 +168,8 @@ watch([filter, sort, search], (after, before) => {
 });
 
 const page = ref(1);
-const limit = ref(5);
-
-
 
 const { items, totalPages, changeManualSort, getItems, getItemCount  } = useItems(collectionKey, {
-    limit,
     sort,
     search,
     page,
@@ -213,7 +195,7 @@ async function change(event, group) {
     if( event.added ) {
 
         const id = event.added.element[pkField]
-        
+
         const diff = {
             [pkField]: id,
             [field.value.field]: fieldValue.value,
@@ -221,11 +203,11 @@ async function change(event, group) {
         const res = await api.patch(`items/${collectionKey.value}`, [diff]);
         item = id
         to = items.value[event.added.newIndex-1]?.[pkField];
-        
+
         const index = items.value.findIndex(obj => {
             return res.data.data.some(item => item.id === obj.id);
         });
-        
+
         if (index !== -1) {
             items.value.splice(index, 1, { ...res.data.data[0] });
         }
@@ -275,7 +257,7 @@ function handleCreateItem() {
 function handleDeleteItem (index: number) {
     let data = items.value
     data.splice(index,1);
-    
+
     items.value = data
     getItemCount();
 }
@@ -344,9 +326,5 @@ main {
 }
 .icon-menu {
     --v-icon-size: 16px;
-}
-.v-pagination {
-    padding-top: 10px;
-    justify-content: center;
 }
 </style>
