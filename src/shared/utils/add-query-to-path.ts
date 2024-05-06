@@ -5,12 +5,15 @@
  * @param path - URL path to add query parameters too
  * @param query - Object style query parameters to add
  */
-export function addQueryToPath(path: string, query: Record<string, string>): string {
-	const queryParams = new URLSearchParams(path.split('?')[1] || '');
+export function addQueryToPath(
+  path: string,
+  query: Record<string, string>,
+): string {
+  const queryParams = new URLSearchParams(path.split('?')[1] || '')
 
-	for (const [key, value] of Object.entries(query)) {
-		queryParams.set(key, value);
-	}
+  for (const [key, value] of Object.entries(query)) {
+    queryParams.set(key, value)
+  }
 
-	return path.split('?')[0] + '?' + queryParams;
+  return path.split('?')[0] + '?' + queryParams
 }

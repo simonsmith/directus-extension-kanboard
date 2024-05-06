@@ -18,10 +18,10 @@
           <v-icon name="add" />
         </v-button>
         <v-menu show-arrow>
-          <template #activator="{ toggle, active }">
+          <template #activator="{toggle, active}">
             <v-button
               class="button-header"
-              :class="{ active }"
+              :class="{active}"
               @click="toggle"
               v-tooltip.bottom="t('kanboard.group.edit_group')"
               icon
@@ -35,7 +35,7 @@
           >
             <v-icon name="edit" class="icon-menu" />
             <span class="text-14px ml-5px">{{
-              t("kanboard.group.edit_group")
+              t('kanboard.group.edit_group')
             }}</span>
           </v-list>
           <v-list
@@ -44,7 +44,7 @@
           >
             <v-icon name="delete" class="icon-menu" />
             <span class="text-14px ml-5px">{{
-              t("kanboard.group.delete_group")
+              t('kanboard.group.delete_group')
             }}</span>
           </v-list>
         </v-menu>
@@ -60,7 +60,7 @@
         :animation="150"
         @change="change"
       >
-        <template #item="{ element, index }">
+        <template #item="{element, index}">
           <card
             :layout-options="layoutOptions"
             :item="element"
@@ -88,46 +88,46 @@ import {
   ref,
   toRefs,
   watch,
-} from "vue";
+} from 'vue'
 import {
   useApi,
   useCollection,
   useItems,
   useSync,
-} from "@directus/extensions-sdk";
-import { Field, Filter, LogicalFilterAND } from "@directus/types";
-import { LayoutOptions } from "../types";
-import Draggable from "vuedraggable";
-import Card from "./card.vue";
-import { useI18n } from "vue-i18n";
+} from '@directus/extensions-sdk'
+import {Field, Filter, LogicalFilterAND} from '@directus/types'
+import {LayoutOptions} from '../types'
+import Draggable from 'vuedraggable'
+import Card from './card.vue'
+import {useI18n} from 'vue-i18n'
 interface Props {
-  layoutOptions?: LayoutOptions;
-  collection: string;
-  primaryKeyField?: Record<string, any> | null;
-  page?: number | null;
-  filter?: Filter | null;
-  search?: string | null;
-  sort?: string | null;
-  totalPages?: number | null;
-  field?: string | null;
-  fieldValue: string | null;
-  isRefresh?: boolean;
-  openChangeLog?: boolean;
-  openDrawerItemEdit?: boolean;
-  newItemData?: object;
-  groupCollection?: string | null;
-  groupedItems?: Group[];
-  groupTitle?: string | null;
-  groupIndex?: number | null;
-  changeGroupSort: (event: ChangeEvent<Group>) => void;
-  addGroup: (title: string) => Promise<void>;
-  editGroup: (id: string | number, title: string) => Promise<void>;
-  deleteGroup: (id: string | number) => Promise<void>;
-  isRelational?: boolean;
-  sortField?: string | null;
-  userField?: string | null;
-  groupsSortField?: string | null;
-  reloadGroup?: boolean | false;
+  layoutOptions?: LayoutOptions
+  collection: string
+  primaryKeyField?: Record<string, any> | null
+  page?: number | null
+  filter?: Filter | null
+  search?: string | null
+  sort?: string | null
+  totalPages?: number | null
+  field?: string | null
+  fieldValue: string | null
+  isRefresh?: boolean
+  openChangeLog?: boolean
+  openDrawerItemEdit?: boolean
+  newItemData?: object
+  groupCollection?: string | null
+  groupedItems?: Group[]
+  groupTitle?: string | null
+  groupIndex?: number | null
+  changeGroupSort: (event: ChangeEvent<Group>) => void
+  addGroup: (title: string) => Promise<void>
+  editGroup: (id: string | number, title: string) => Promise<void>
+  deleteGroup: (id: string | number) => Promise<void>
+  isRelational?: boolean
+  sortField?: string | null
+  userField?: string | null
+  groupsSortField?: string | null
+  reloadGroup?: boolean | false
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -147,18 +147,18 @@ const props = withDefaults(defineProps<Props>(), {
   sortField: null,
   userField: null,
   groupsSortField: null,
-});
+})
 
 const emit = defineEmits([
-  "clickItem",
-  "update:isRefresh",
-  "createItem",
-  "editItem",
-  "openChangeLog",
-  "deleteGroup",
-  "editGroup",
-]);
-const valueOpenEditGroupTitle = ref(false);
+  'clickItem',
+  'update:isRefresh',
+  'createItem',
+  'editItem',
+  'openChangeLog',
+  'deleteGroup',
+  'editGroup',
+])
+const valueOpenEditGroupTitle = ref(false)
 const {
   primaryKeyField,
   fieldValue,
@@ -168,19 +168,19 @@ const {
   collection: collectionKey,
   search,
   layoutOptions,
-} = toRefs(props);
+} = toRefs(props)
 
-const { t } = useI18n();
-const api = useApi();
-const collection = useCollection(collectionKey);
+const {t} = useI18n()
+const api = useApi()
+const collection = useCollection(collectionKey)
 
 const fields = computed<string[]>(() =>
-  collection.fields.value.map((f) => f.field)
-);
+  collection.fields.value.map((f) => f.field),
+)
 
 const filter = computed<LogicalFilterAND>(() => ({
-  _and: [{ [field.value.field]: { _eq: fieldValue.value } }],
-}));
+  _and: [{[field.value.field]: {_eq: fieldValue.value}}],
+}))
 
 // const sort = computed(() => layoutOptions.value?.sort);
 
@@ -188,115 +188,117 @@ watch([filter, sort, search], (after, before) => {
   if (JSON.stringify(after) != JSON.stringify(before)) {
     // pages.value = [1];
   }
-});
+})
 
-const page = ref(1);
+const page = ref(1)
 
-const { items, totalPages, changeManualSort, getItems, getItemCount } =
-  useItems(collectionKey, {
+const {items, totalPages, changeManualSort, getItems, getItemCount} = useItems(
+  collectionKey,
+  {
     sort,
     search,
     page,
     filter,
     fields,
-  });
+  },
+)
 
 interface EndEvent extends CustomEvent {
-  oldIndex: number;
-  newIndex: number;
-  from: HTMLElement;
-  to: HTMLElement;
-  item: HTMLElement;
+  oldIndex: number
+  newIndex: number
+  from: HTMLElement
+  to: HTMLElement
+  item: HTMLElement
 }
 
 async function change(event, group) {
-  const pkField = primaryKeyField.value?.field;
+  const pkField = primaryKeyField.value?.field
 
-  let item: string | number | undefined = undefined;
-  let to: string | number | undefined = undefined;
+  let item: string | number | undefined = undefined
+  let to: string | number | undefined = undefined
 
   if (event.added) {
-    const id = event.added.element[pkField];
+    const id = event.added.element[pkField]
 
     const diff = {
       [pkField]: id,
       [field.value.field]: fieldValue.value,
-    };
-    const res = await api.patch(`items/${collectionKey.value}`, [diff]);
-    item = id;
-    to = items.value[event.added.newIndex - 1]?.[pkField];
+    }
+    const res = await api.patch(`items/${collectionKey.value}`, [diff])
+    item = id
+    to = items.value[event.added.newIndex - 1]?.[pkField]
 
     const index = items.value.findIndex((obj) => {
-      return res.data.data.some((item) => item.id === obj.id);
-    });
+      return res.data.data.some((item) => item.id === obj.id)
+    })
 
     if (index !== -1) {
-      items.value.splice(index, 1, { ...res.data.data[0] });
+      items.value.splice(index, 1, {...res.data.data[0]})
     }
   }
   if (event.moved) {
-    const group = Object.assign({}, items.value);
-    item = event.moved.element?.[pkField];
-    to = group[event.moved.oldIndex]?.[pkField];
+    const group = Object.assign({}, items.value)
+    item = event.moved.element?.[pkField]
+    to = group[event.moved.oldIndex]?.[pkField]
 
-    const before = group[event.moved.newIndex + 1]?.[pkField];
-    const after = group[event.moved.oldIndex + 1]?.[pkField];
+    const before = group[event.moved.newIndex + 1]?.[pkField]
+    const after = group[event.moved.oldIndex + 1]?.[pkField]
 
     // to = ((event.moved.oldIndex - event.moved.newIndex) > 1) ? after : before;
 
-    to = event.moved.oldIndex - event.moved.newIndex > 1 ? before : to;
-    to = event.moved.newIndex - event.moved.oldIndex > 1 ? after : to;
+    to = event.moved.oldIndex - event.moved.newIndex > 1 ? before : to
+    to = event.moved.newIndex - event.moved.oldIndex > 1 ? after : to
   }
 
   if (item !== undefined && to !== undefined) {
     // changeManualSort({ item, to });
-    const endpoint = computed(() => `/utils/sort/${collectionKey.value}`);
-    await api.post(endpoint.value, { item, to });
+    const endpoint = computed(() => `/utils/sort/${collectionKey.value}`)
+    await api.post(endpoint.value, {item, to})
 
-    sort.value = sort.value;
+    sort.value = sort.value
   }
 }
 
 watch(
   () => props.newItemData,
   () => {
-    let data = items.value;
-    let editItem = false;
+    let data = items.value
+    let editItem = false
     data.forEach((item, index) => {
       if (props.newItemData.id === item.id) {
-        data[index] = props.newItemData;
-        editItem = true;
+        data[index] = props.newItemData
+        editItem = true
       }
-    });
+    })
     if (
       !editItem &&
       props.newItemData?.[field.value.field] === fieldValue.value
     ) {
-      data = [...data, props.newItemData];
+      data = [...data, props.newItemData]
     }
-    items.value = data;
-    getItemCount();
-  }
-);
+    items.value = data
+    getItemCount()
+  },
+)
 
 function handleCreateItem() {
-  emit("createItem", fieldValue);
+  emit('createItem', fieldValue)
 }
 function handleDeleteItem(index: number) {
-  let data = items.value;
-  data.splice(index, 1);
+  let data = items.value
+  data.splice(index, 1)
 
-  items.value = data;
-  getItemCount();
+  items.value = data
+  getItemCount()
 }
 function handleEditItem(item: Item, index: number) {
-  emit("editItem", items.value, item, index);
+  emit('editItem', items.value, item, index)
 }
-const isArrayCard = ref([]);
-const indexGroup = ref(null);
-const data = ref([]);
+const isArrayCard = ref([])
+const indexGroup = ref(null)
+const data = ref([])
 function handleDeleteGroup() {
-  emit("deleteGroup");
+  emit('deleteGroup')
 }
 </script>
 <style scoped>

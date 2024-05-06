@@ -4,7 +4,7 @@
       <v-image
         v-if="item?.[layoutOptions?.imageSource]"
         class="render-thumbnail"
-        :class="{ 'card-image-fill': layoutOptions?.crop }"
+        :class="{'card-image-fill': layoutOptions?.crop}"
         :src="partImage(item?.[layoutOptions?.imageSource])"
       />
       <display-formatted-value
@@ -14,11 +14,11 @@
         class="card-title"
       ></display-formatted-value>
       <v-menu show-arrow v-if="isShowMenuCard">
-        <template #activator="{ toggle, active }">
+        <template #activator="{toggle, active}">
           <v-button
             class="button-edit-item"
             v-tooltip.bottom="'Edit Item'"
-            :class="{ active }"
+            :class="{active}"
             @click.stop="toggle"
             icon
           >
@@ -26,13 +26,13 @@
           </v-button>
         </template>
         <v-list @click.stop="handleEditItem" class="list-menu-item">
-          <span class="text-14px">{{ t("kanboard.card.edit_item") }}</span>
+          <span class="text-14px">{{ t('kanboard.card.edit_item') }}</span>
         </v-list>
         <v-list @click.stop="handleChangLogItem" class="list-menu-item">
-          <span class="text-14px">{{ t("kanboard.card.changelog") }}</span>
+          <span class="text-14px">{{ t('kanboard.card.changelog') }}</span>
         </v-list>
         <v-list @click.stop="handleDeleteItem" class="list-menu-item">
-          <span class="text-14px">{{ t("kanboard.card.delete_item") }}</span>
+          <span class="text-14px">{{ t('kanboard.card.delete_item') }}</span>
         </v-list>
       </v-menu>
     </header>
@@ -57,18 +57,18 @@
     <v-dialog :model-value="isOpenConfirmDialog" @esc="cancelChanges()">
       <div class="confirm-delete">
         <v-card>
-          <v-card-title>{{ t("kanboard.popup_confirm.title") }}</v-card-title>
+          <v-card-title>{{ t('kanboard.popup_confirm.title') }}</v-card-title>
           <v-card-text>
-            {{ t("kanboard.popup_confirm.text") }}
+            {{ t('kanboard.popup_confirm.text') }}
           </v-card-text>
           <v-card-actions>
             <v-button secondary @click="cancelChanges()">{{
-              t("kanboard.button.cancel")
+              t('kanboard.button.cancel')
             }}</v-button>
             <v-button
               class="button-confirm-delete"
               @click="handleConfirmDelete(item)"
-              >{{ t("kanboard.button.delete") }}</v-button
+              >{{ t('kanboard.button.delete') }}</v-button
             >
           </v-card-actions>
         </v-card>
@@ -78,95 +78,95 @@
 </template>
 
 <script setup lang="ts">
-import { watch } from "vue";
-import { Filter } from "@directus/types";
-import { LayoutOptions } from "../types";
-import { ref } from "vue";
-import { useApi } from "@directus/extensions-sdk";
-import { useI18n } from "vue-i18n";
-import { partImage } from "../../share/utils/part-image";
-import { notify } from "../../share/utils/notify";
+import {watch} from 'vue'
+import {Filter} from '@directus/types'
+import {LayoutOptions} from '../types'
+import {ref} from 'vue'
+import {useApi} from '@directus/extensions-sdk'
+import {useI18n} from 'vue-i18n'
+import {partImage} from '../../share/utils/part-image'
+import {notify} from '../../share/utils/notify'
 interface Props {
-  layoutOptions?: LayoutOptions;
-  primaryKeyField?: Record<string, any> | null;
-  collection?: string;
-  openChangeLog?: boolean;
-  openDrawerItemEdit?: boolean;
-  collectionKey?: string;
-  filter?: Filter | null;
-  search?: string | null;
-  item: Object | null;
+  layoutOptions?: LayoutOptions
+  primaryKeyField?: Record<string, any> | null
+  collection?: string
+  openChangeLog?: boolean
+  openDrawerItemEdit?: boolean
+  collectionKey?: string
+  filter?: Filter | null
+  search?: string | null
+  item: Object | null
 }
 
 const props = withDefaults(defineProps<Props>(), {
   layoutOptions: {},
-});
-const { t } = useI18n();
-const api = useApi();
+})
+const {t} = useI18n()
+const api = useApi()
 
-const emit = defineEmits(["deleteItem", "editItem", "openChangeLog"]);
+const emit = defineEmits(['deleteItem', 'editItem', 'openChangeLog'])
 
-const avatarUserCreate = ref(null);
+const avatarUserCreate = ref(null)
 async function getDataUser() {
-  const res = await api.get("/users/" + props.item.user_created, {
+  const res = await api.get('/users/' + props.item.user_created, {
     params: {
-      fields: ["avatar"],
+      fields: ['avatar'],
     },
-  });
-  avatarUserCreate.value = res?.data?.data?.avatar;
+  })
+  avatarUserCreate.value = res?.data?.data?.avatar
 }
-getDataUser();
+getDataUser()
 
-const isOpenConfirmDialog = ref(false);
-const isShowMenuCard = ref(true);
+const isOpenConfirmDialog = ref(false)
+const isShowMenuCard = ref(true)
 function handleEditItem() {
-  emit("editItem");
-  isShowMenuCard.value = false;
+  emit('editItem')
+  isShowMenuCard.value = false
 }
 watch(
   () => props.openDrawerItemEdit,
   (newValue) => {
     if (newValue === false) {
-      isShowMenuCard.value = true;
+      isShowMenuCard.value = true
     }
-  }
-);
+  },
+)
 function handleChangLogItem() {
-  emit("openChangeLog");
-  isShowMenuCard.value = false;
+  emit('openChangeLog')
+  isShowMenuCard.value = false
 }
 
 watch(
   () => props.openChangeLog,
   (newValue) => {
     if (newValue === false) {
-      isShowMenuCard.value = true;
+      isShowMenuCard.value = true
     }
-  }
-);
+  },
+)
 function handleDeleteItem() {
-  isOpenConfirmDialog.value = true;
-  isShowMenuCard.value = false;
+  isOpenConfirmDialog.value = true
+  isShowMenuCard.value = false
 }
 function cancelChanges() {
-  isOpenConfirmDialog.value = false;
-  isShowMenuCard.value = true;
+  isOpenConfirmDialog.value = false
+  isShowMenuCard.value = true
 }
 async function handleConfirmDelete(item: Object) {
   try {
     await api.delete(
-      `/items/${props.collectionKey}/${item?.[props.primaryKeyField.field]}`
-    );
-    isShowMenuCard.value = true;
-    emit("deleteItem", item);
-    isOpenConfirmDialog.value = false;
+      `/items/${props.collectionKey}/${item?.[props.primaryKeyField.field]}`,
+    )
+    isShowMenuCard.value = true
+    emit('deleteItem', item)
+    isOpenConfirmDialog.value = false
     notify({
       title: `Item ${item.title} has been deleted successfully`,
-    });
+    })
   } catch (error) {
     notify({
       title: error,
-    });
+    })
   }
 }
 </script>
@@ -299,7 +299,7 @@ main {
   opacity: 1;
 }
 .button-edit-item::before {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   opacity: 0.4;

@@ -1,4 +1,4 @@
-(function(){"use strict";try{if(typeof document<"u"){var r=document.createElement("style");r.appendChild(document.createTextNode('*,:before,:after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.grid{display:grid}.mb-8px{margin-bottom:8px}.ml-12px{margin-left:12px}.ml-20px{margin-left:20px}.ml-4px{margin-left:4px}.ml-5px{margin-left:5px}.ml-8px{margin-left:8px}.block,[block=""]{display:block}.hidden{display:none}.h-100\\%{height:100%}.h-40px{height:40px}.h-44px{height:44px}.h24px{height:24px}.w-100\\%{width:100%}.w-24px{width:24px}.w-256px{width:256px}.w-40px{width:40px}.w-44px{width:44px}.w-55\\%{width:55%}.flex{display:flex}.flex-grow{flex-grow:1}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.cursor-pointer{cursor:pointer}.items-center{align-items:center}.justify-center{justify-content:center}.gap-5px{gap:5px}.overflow-y-auto{overflow-y:auto}.border{border-width:1px}.rounded-50\\%{border-radius:50%}.rounded-full{border-radius:9999px}.bg-\\[var\\(--green-10\\)\\]{background-color:var(--green-10)}.bg-\\[var\\(--purple-25\\)\\]{background-color:var(--purple-25)}.bg-\\[var\\(--red-10\\)\\]{background-color:var(--red-10)}.bg-slate-200{--un-bg-opacity:1;background-color:rgb(226 232 240 / var(--un-bg-opacity))}.hover\\:bg-\\[var\\(--purple-50\\)\\]:hover{background-color:var(--purple-50)}.px-10px{padding-left:10px;padding-right:10px}.px-40px{padding-left:40px;padding-right:40px}.py-5px{padding-top:5px;padding-bottom:5px}.text-12px{font-size:12px}.text-14px{font-size:14px}.text-15px{font-size:15px}.text-16px{font-size:16px}.text-\\[var\\(--purple-75\\)\\]{color:var(--purple-75)}.text-\\[var\\(--theme--danger\\)\\]{color:var(--theme--danger)}.text-\\[var\\(--theme--success\\)\\]{color:var(--theme--success)}.hover\\:text-\\[var\\(--project-color\\)\\]:hover{color:var(--project-color)}.hover\\:text-\\[var\\(--theme--danger\\)\\]:hover{color:var(--theme--danger)}.font-400{font-weight:400}.font-500{font-weight:500}.font-600{font-weight:600}.font-700{font-weight:700}.leading-18px{line-height:18px}.capitalize{text-transform:capitalize}.underline{text-decoration-line:underline}.filter{filter:var(--un-blur) var(--un-brightness) var(--un-contrast) var(--un-drop-shadow) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate) var(--un-sepia)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.card[data-v-4907719f]{display:flex;flex-flow:column nowrap;gap:12px;flex-grow:1;min-height:100%;border-radius:var(--kb-card-border-radius);box-shadow:0 1px 4px rgba(var(--card-shadow-color),.05);background-color:var(--kb-card-background);align-items:stretch;cursor:pointer;border:var(--kb-card-border-width) var(--kb-card-border-style) var(--kb-card-border-color)}.card:hover .card-title[data-v-4907719f]{text-decoration-line:underline}.card>*[data-v-4907719f]{padding-left:16px;padding-right:16px}.card>*[data-v-4907719f]:first-child{border-top-left-radius:16px;border-top-right-radius:16px;padding-top:16px}.card>*[data-v-4907719f]:last-child{border-bottom-left-radius:16px;border-bottom-right-radius:16px;padding-bottom:16px}header[data-v-4907719f]{font-weight:700;position:relative}header>.card-title[data-v-4907719f]{white-space:inherit;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}header>.card-title.muted[data-v-4907719f]{color:var(--foreground-subdued)}.card-icon[data-v-4907719f]{width:48px;height:48px;background-color:var(--background-subdued);border-radius:var(--border-radius);font-size:32px;flex:0 0 48px;display:flex;justify-content:stretch;align-items:stretch}main[data-v-4907719f]{padding-bottom:12px;display:flex;flex-wrap:wrap;justify-content:end;align-items:end;gap:5px}.main-content[data-v-4907719f]{width:100%;flex-wrap:wrap;display:-webkit-box;max-height:50px;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;white-space:normal;-webkit-line-clamp:2;line-height:25px}.card-icon>.card-icon-inner[data-v-4907719f]{padding:0;flex-grow:1;text-align:center}.render-avatar-user-created[data-v-4907719f]{aspect-ratio:1/1;height:100%;width:100%;object-fit:cover;border-radius:50%}.render-thumbnail[data-v-4907719f]{max-width:100%;object-fit:contain;border-radius:6px}.card-image-fill[data-v-4907719f]{width:250px;height:150px;object-fit:cover}.button-edit-item[data-v-4907719f]{position:absolute;right:15px;top:18px;--v-button-min-width: 32px;--v-button-width: 32px;--v-button-height: 32px;--v-icon-color: var(--fc-neutral-text-color);font-size:16px;border-radius:4px;--v-button-background-color: none;--v-icon-size: 16px;opacity:0;--v-button-background-color-hover: none !important}.button-edit-item[data-v-4907719f]:hover{--v-icon-color: var(--theme--foreground)}.card:hover .button-edit-item[data-v-4907719f]{opacity:1}.button-edit-item[data-v-4907719f]:before{content:"";width:100%;height:100%;opacity:.4;background-color:var(--theme--form--field--input--border-color);right:0;position:absolute;border-radius:4px}.button-edit-item[data-v-4907719f]:hover:before{opacity:1;background-color:var(--theme--form--field--input--border-color-hover)}.active[data-v-4907719f]{opacity:1;--v-button-background-color-active: none !important}.list-menu-item[data-v-4907719f]{cursor:pointer;margin:8px}.list-menu-item[data-v-4907719f]:hover{color:var(--project-color)}.confirm-delete .v-card-title[data-v-4907719f]{justify-content:center;font-size:18px;font-weight:700}.confirm-delete .v-card-text[data-v-4907719f]{text-align:center;font-size:16px;font-weight:600}.button-confirm-delete[data-v-4907719f]{--v-button-background-color: var(--theme--danger);--v-button-background-color-hover: var(--danger-125);--v-button-background-color-active: var(--theme--danger)}section[data-v-589b3a46]{background-color:#000;border-radius:var(--theme--border-radius);flex:0 0 320px;display:flex;flex-flow:column nowrap;align-items:stretch}header[data-v-589b3a46]{padding:0 16px 16px;display:flex;justify-content:space-between}main[data-v-589b3a46]{flex-grow:1}.edit-title-group[data-v-589b3a46]{width:100%;--theme--form--field--input--height: 30px;--theme--form--field--input--padding: 5px}.cards[data-v-589b3a46]{padding:16px;gap:15px;display:flex;flex-flow:column nowrap;flex-grow:1;min-height:100%}.cards>*[data-v-589b3a46]{display:flex;flex:0 0 auto}.button-header[data-v-589b3a46]{--v-button-min-width: 32px;--v-button-width: 32px;--v-button-height: 32px;--v-button-background-color: none;--v-icon-color: var(--fc-neutral-text-color);--v-button-background-color-hover: none;--v-button-background-color-active: none}.button-header[data-v-589b3a46]:hover{--v-icon-color: var(--theme--foreground)}.list-menu-item[data-v-589b3a46]{cursor:pointer;margin:8px}.icon-menu[data-v-589b3a46]{--v-icon-size: 16px}:root{--kb-height: calc(100% - 113px) ;--kb-container-padding: 24px;--kb-column-background: #eee;--kb-column-border-width: 1px;--kb-column-border-color: #eee;--kb-column-border-color-active: #aaa;--kb-column-border-style: solid;--kb-column-border-radius: 4px;--kb-card-background: #ccc;--kb-card-border-width: var(--kb-column-border-width);--kb-card-border-color: #aaa;--kb-card-border-style: var(--kb-column-border-style);--kb-card-border-radius: var(--kb-column-border-radius);--kb-add-group-background: #eee}.boards-layout[data-v-c659af33]{padding:var(--content-padding);padding-top:0;display:flex;align-items:stretch;gap:var(--content-padding)}.kanboard[data-v-c659af33]{display:flex;height:var(--kb-height);padding:var(--kb-container-padding);overflow-x:auto;overflow-y:hidden;--user-spacing: 16px}.kanboard[data-v-c659af33] .draggable[data-v-c659af33]{display:flex}.kanboard[data-v-c659af33] .draggable[data-v-c659af33] .group[data-v-c659af33]{display:flex;flex-direction:column;width:320px;padding:8px 0;background-color:var(--kb-column-background);border:var(--kb-column-border-width) var(--kb-column-border-style) var(--kb-column-border-color);border-radius:var(--kb-column-border-radius);margin-right:20px;transition:border-color var(--transition) var(--fast)}.kanboard[data-v-c659af33] .draggable[data-v-c659af33] .group[data-v-c659af33][data-v-c659af33]:active{border-color:var(--kb-column-border-color-active);cursor:move}.disable-button-next-pre[data-v-c659af33]{pointer-events:none;cursor:not-allowed!important;background:var(--purple-10);opacity:.5}.item-change-log[data-v-c659af33]{--v-icon-size: 15px;display:flex;padding:10px 40px}.item-change-log[data-v-c659af33]:hover{background-color:var(--blue-10)}.render-thumbnail[data-v-c659af33]{aspect-ratio:16/9;height:100%;width:100%;object-fit:cover;border-radius:50%}.item-detail-revision[data-v-c659af33]{font-size:15px;margin-bottom:20px}.item-detail-revision[data-v-c659af33]:first-child{margin-bottom:0}.add-group[data-v-c659af33]{min-width:252px;height:44px;display:flex;align-items:center;background-color:var(--kb-add-group-background);padding:14px 0 14px 12px;border-radius:4px;cursor:pointer}.confirm-delete .v-card-title[data-v-c659af33]{justify-content:center;font-size:18px;font-weight:700}.confirm-delete .v-card-text[data-v-c659af33]{text-align:center;font-size:16px;font-weight:600}.button-confirm-delete[data-v-c659af33]{--v-button-background-color: var(--theme--danger);--v-button-background-color-hover: var(--danger-125);--v-button-background-color-active: var(--theme--danger)}.nested-options[data-v-13d8f624]{display:grid;grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full];gap:var(--theme--form--row-gap) var(--theme--form--column-gap)}')),document.head.appendChild(r)}}catch(a){console.error("vite-plugin-css-injected-by-js",a)}})();
+(function(){"use strict";try{if(typeof document<"u"){var r=document.createElement("style");r.appendChild(document.createTextNode('*,:before,:after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.grid{display:grid}.mb-8px{margin-bottom:8px}.ml-12px{margin-left:12px}.ml-20px{margin-left:20px}.ml-4px{margin-left:4px}.ml-5px{margin-left:5px}.ml-8px{margin-left:8px}.block,[block=""]{display:block}.hidden{display:none}.h-100\\%{height:100%}.h-40px{height:40px}.h-44px{height:44px}.h24px{height:24px}.w-100\\%{width:100%}.w-24px{width:24px}.w-256px{width:256px}.w-40px{width:40px}.w-44px{width:44px}.w-55\\%{width:55%}.flex{display:flex}.flex-grow{flex-grow:1}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.cursor-pointer{cursor:pointer}.items-center{align-items:center}.justify-center{justify-content:center}.gap-5px{gap:5px}.overflow-y-auto{overflow-y:auto}.border{border-width:1px}.rounded-50\\%{border-radius:50%}.rounded-full{border-radius:9999px}.bg-\\[var\\(--green-10\\)\\]{background-color:var(--green-10)}.bg-\\[var\\(--purple-25\\)\\]{background-color:var(--purple-25)}.bg-\\[var\\(--red-10\\)\\]{background-color:var(--red-10)}.bg-slate-200{--un-bg-opacity:1;background-color:rgb(226 232 240 / var(--un-bg-opacity))}.hover\\:bg-\\[var\\(--purple-50\\)\\]:hover{background-color:var(--purple-50)}.px-10px{padding-left:10px;padding-right:10px}.px-40px{padding-left:40px;padding-right:40px}.py-5px{padding-top:5px;padding-bottom:5px}.text-12px{font-size:12px}.text-14px{font-size:14px}.text-15px{font-size:15px}.text-16px{font-size:16px}.text-\\[var\\(--purple-75\\)\\]{color:var(--purple-75)}.text-\\[var\\(--theme--danger\\)\\]{color:var(--theme--danger)}.text-\\[var\\(--theme--success\\)\\]{color:var(--theme--success)}.hover\\:text-\\[var\\(--project-color\\)\\]:hover{color:var(--project-color)}.hover\\:text-\\[var\\(--theme--danger\\)\\]:hover{color:var(--theme--danger)}.font-400{font-weight:400}.font-500{font-weight:500}.font-600{font-weight:600}.font-700{font-weight:700}.leading-18px{line-height:18px}.capitalize{text-transform:capitalize}.underline{text-decoration-line:underline}.filter{filter:var(--un-blur) var(--un-brightness) var(--un-contrast) var(--un-drop-shadow) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate) var(--un-sepia)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.card[data-v-f1c2283e]{display:flex;flex-flow:column nowrap;gap:12px;flex-grow:1;min-height:100%;border-radius:var(--kb-card-border-radius);box-shadow:0 1px 4px rgba(var(--card-shadow-color),.05);background-color:var(--kb-card-background);align-items:stretch;cursor:pointer;border:var(--kb-card-border-width) var(--kb-card-border-style) var(--kb-card-border-color)}.card:hover .card-title[data-v-f1c2283e]{text-decoration-line:underline}.card>*[data-v-f1c2283e]{padding-left:16px;padding-right:16px}.card>*[data-v-f1c2283e]:first-child{border-top-left-radius:16px;border-top-right-radius:16px;padding-top:16px}.card>*[data-v-f1c2283e]:last-child{border-bottom-left-radius:16px;border-bottom-right-radius:16px;padding-bottom:16px}header[data-v-f1c2283e]{font-weight:700;position:relative}header>.card-title[data-v-f1c2283e]{white-space:inherit;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}header>.card-title.muted[data-v-f1c2283e]{color:var(--foreground-subdued)}.card-icon[data-v-f1c2283e]{width:48px;height:48px;background-color:var(--background-subdued);border-radius:var(--border-radius);font-size:32px;flex:0 0 48px;display:flex;justify-content:stretch;align-items:stretch}main[data-v-f1c2283e]{padding-bottom:12px;display:flex;flex-wrap:wrap;justify-content:end;align-items:end;gap:5px}.main-content[data-v-f1c2283e]{width:100%;flex-wrap:wrap;display:-webkit-box;max-height:50px;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;white-space:normal;-webkit-line-clamp:2;line-height:25px}.card-icon>.card-icon-inner[data-v-f1c2283e]{padding:0;flex-grow:1;text-align:center}.render-avatar-user-created[data-v-f1c2283e]{aspect-ratio:1/1;height:100%;width:100%;object-fit:cover;border-radius:50%}.render-thumbnail[data-v-f1c2283e]{max-width:100%;object-fit:contain;border-radius:6px}.card-image-fill[data-v-f1c2283e]{width:250px;height:150px;object-fit:cover}.button-edit-item[data-v-f1c2283e]{position:absolute;right:15px;top:18px;--v-button-min-width: 32px;--v-button-width: 32px;--v-button-height: 32px;--v-icon-color: var(--fc-neutral-text-color);font-size:16px;border-radius:4px;--v-button-background-color: none;--v-icon-size: 16px;opacity:0;--v-button-background-color-hover: none !important}.button-edit-item[data-v-f1c2283e]:hover{--v-icon-color: var(--theme--foreground)}.card:hover .button-edit-item[data-v-f1c2283e]{opacity:1}.button-edit-item[data-v-f1c2283e]:before{content:"";width:100%;height:100%;opacity:.4;background-color:var(--theme--form--field--input--border-color);right:0;position:absolute;border-radius:4px}.button-edit-item[data-v-f1c2283e]:hover:before{opacity:1;background-color:var(--theme--form--field--input--border-color-hover)}.active[data-v-f1c2283e]{opacity:1;--v-button-background-color-active: none !important}.list-menu-item[data-v-f1c2283e]{cursor:pointer;margin:8px}.list-menu-item[data-v-f1c2283e]:hover{color:var(--project-color)}.confirm-delete .v-card-title[data-v-f1c2283e]{justify-content:center;font-size:18px;font-weight:700}.confirm-delete .v-card-text[data-v-f1c2283e]{text-align:center;font-size:16px;font-weight:600}.button-confirm-delete[data-v-f1c2283e]{--v-button-background-color: var(--theme--danger);--v-button-background-color-hover: var(--danger-125);--v-button-background-color-active: var(--theme--danger)}section[data-v-1b5c00ef]{background-color:#000;border-radius:var(--theme--border-radius);flex:0 0 320px;display:flex;flex-flow:column nowrap;align-items:stretch}header[data-v-1b5c00ef]{padding:0 16px 16px;display:flex;justify-content:space-between}main[data-v-1b5c00ef]{flex-grow:1}.edit-title-group[data-v-1b5c00ef]{width:100%;--theme--form--field--input--height: 30px;--theme--form--field--input--padding: 5px}.cards[data-v-1b5c00ef]{padding:16px;gap:15px;display:flex;flex-flow:column nowrap;flex-grow:1;min-height:100%}.cards>*[data-v-1b5c00ef]{display:flex;flex:0 0 auto}.button-header[data-v-1b5c00ef]{--v-button-min-width: 32px;--v-button-width: 32px;--v-button-height: 32px;--v-button-background-color: none;--v-icon-color: var(--fc-neutral-text-color);--v-button-background-color-hover: none;--v-button-background-color-active: none}.button-header[data-v-1b5c00ef]:hover{--v-icon-color: var(--theme--foreground)}.list-menu-item[data-v-1b5c00ef]{cursor:pointer;margin:8px}.icon-menu[data-v-1b5c00ef]{--v-icon-size: 16px}:root{--kb-height: calc(100% - 113px) ;--kb-container-padding: 24px;--kb-column-background: #eee;--kb-column-border-width: 1px;--kb-column-border-color: #eee;--kb-column-border-color-active: #aaa;--kb-column-border-style: solid;--kb-column-border-radius: 4px;--kb-card-background: #ccc;--kb-card-border-width: var(--kb-column-border-width);--kb-card-border-color: #aaa;--kb-card-border-style: var(--kb-column-border-style);--kb-card-border-radius: var(--kb-column-border-radius);--kb-add-group-background: #eee}.boards-layout[data-v-75a03bbc]{padding:var(--content-padding);padding-top:0;display:flex;align-items:stretch;gap:var(--content-padding)}.kanboard[data-v-75a03bbc]{display:flex;height:var(--kb-height);padding:var(--kb-container-padding);overflow-x:auto;overflow-y:hidden;--user-spacing: 16px}.kanboard[data-v-75a03bbc] .draggable[data-v-75a03bbc]{display:flex}.kanboard[data-v-75a03bbc] .draggable[data-v-75a03bbc] .group[data-v-75a03bbc]{display:flex;flex-direction:column;width:320px;padding:8px 0;background-color:var(--kb-column-background);border:var(--kb-column-border-width) var(--kb-column-border-style) var(--kb-column-border-color);border-radius:var(--kb-column-border-radius);margin-right:20px;transition:border-color var(--transition) var(--fast)}.kanboard[data-v-75a03bbc] .draggable[data-v-75a03bbc] .group[data-v-75a03bbc][data-v-75a03bbc]:active{border-color:var(--kb-column-border-color-active);cursor:move}.disable-button-next-pre[data-v-75a03bbc]{pointer-events:none;cursor:not-allowed!important;background:var(--purple-10);opacity:.5}.item-change-log[data-v-75a03bbc]{--v-icon-size: 15px;display:flex;padding:10px 40px}.item-change-log[data-v-75a03bbc]:hover{background-color:var(--blue-10)}.render-thumbnail[data-v-75a03bbc]{aspect-ratio:16/9;height:100%;width:100%;object-fit:cover;border-radius:50%}.item-detail-revision[data-v-75a03bbc]{font-size:15px;margin-bottom:20px}.item-detail-revision[data-v-75a03bbc]:first-child{margin-bottom:0}.add-group[data-v-75a03bbc]{min-width:252px;height:44px;display:flex;align-items:center;background-color:var(--kb-add-group-background);padding:14px 0 14px 12px;border-radius:4px;cursor:pointer}.confirm-delete .v-card-title[data-v-75a03bbc]{justify-content:center;font-size:18px;font-weight:700}.confirm-delete .v-card-text[data-v-75a03bbc]{text-align:center;font-size:16px;font-weight:600}.button-confirm-delete[data-v-75a03bbc]{--v-button-background-color: var(--theme--danger);--v-button-background-color-hover: var(--danger-125);--v-button-background-color-active: var(--theme--danger)}.nested-options[data-v-ac627294]{display:grid;grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full];gap:var(--theme--form--row-gap) var(--theme--form--column-gap)}')),document.head.appendChild(r)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
 import * as Dn from "vue";
 import { defineComponent as xr, ref as $e, watch as Xt, resolveComponent as Ce, resolveDirective as Br, openBlock as Re, createElementBlock as Ve, createElementVNode as oe, createBlock as ht, normalizeClass as Rt, unref as V, createCommentVNode as dt, createVNode as Q, withCtx as ve, withDirectives as Zt, withModifiers as tr, toDisplayString as ye, createTextVNode as nt, toRefs as Vr, computed as Be, Fragment as Nr, renderList as Yr, isRef as mt } from "vue";
 import { useI18n as Jt } from "vue-i18n";
@@ -8774,7 +8774,7 @@ const Ra = { class: "card drag-handle" }, Ca = { class: "text-14px" }, Da = { cl
   for (const [w, m] of b)
     y[w] = m;
   return y;
-}, Na = /* @__PURE__ */ Er(Ma, [["__scopeId", "data-v-4907719f"]]), La = { class: "group" }, ka = { class: "w-55% flex gap-5px items-center" }, _a = { key: 0 }, Ua = { class: "flex relative" }, Ga = { class: "text-14px ml-5px" }, Ba = { class: "text-14px ml-5px" }, Va = { class: "overflow-y-auto" }, Ka = /* @__PURE__ */ xr({
+}, Na = /* @__PURE__ */ Er(Ma, [["__scopeId", "data-v-f1c2283e"]]), La = { class: "group" }, ka = { class: "w-55% flex gap-5px items-center" }, _a = { key: 0 }, Ua = { class: "flex relative" }, Ga = { class: "text-14px ml-5px" }, Ba = { class: "text-14px ml-5px" }, Va = { class: "overflow-y-auto" }, Ka = /* @__PURE__ */ xr({
   __name: "group",
   props: {
     layoutOptions: { default: null },
@@ -8832,13 +8832,16 @@ const Ra = { class: "card drag-handle" }, Ca = { class: "text-14px" }, Da = { cl
     Xt([s, c, t], (R, D) => {
       JSON.stringify(R) != JSON.stringify(D);
     });
-    const l = $e(1), { items: p, totalPages: v, changeManualSort: E, getItems: $, getItemCount: I } = cn(d, {
-      sort: c,
-      search: t,
-      page: l,
-      filter: s,
-      fields: u
-    });
+    const l = $e(1), { items: p, totalPages: v, changeManualSort: E, getItems: $, getItemCount: I } = cn(
+      d,
+      {
+        sort: c,
+        search: t,
+        page: l,
+        filter: s,
+        fields: u
+      }
+    );
     async function h(R, D) {
       var W, Z, he, K, Y, ue;
       const P = (W = g.value) == null ? void 0 : W.field;
@@ -9003,7 +9006,7 @@ const Ra = { class: "card drag-handle" }, Ca = { class: "text-14px" }, Da = { cl
       ]);
     };
   }
-}), za = /* @__PURE__ */ Er(Ka, [["__scopeId", "data-v-589b3a46"]]);
+}), za = /* @__PURE__ */ Er(Ka, [["__scopeId", "data-v-1b5c00ef"]]);
 function un(S) {
   const b = [
     "Jan",
@@ -9526,7 +9529,7 @@ const Ha = { class: "kanboard" }, Ya = { class: "ml-8px font-500 text-14px" }, X
       ]);
     };
   }
-}), yo = /* @__PURE__ */ Er(vo, [["__scopeId", "data-v-c659af33"]]), bo = { class: "field" }, xo = { class: "type-label" }, So = {
+}), yo = /* @__PURE__ */ Er(vo, [["__scopeId", "data-v-75a03bbc"]]), bo = { class: "field" }, xo = { class: "type-label" }, So = {
   key: 0,
   class: "field"
 }, wo = { class: "type-label" }, Eo = { class: "field" }, Oo = { class: "type-label" }, $o = { class: "field" }, Io = { class: "type-label" }, Ao = { class: "nested-options" }, Ro = { class: "field" }, Co = { class: "type-label" }, Do = { class: "field" }, jo = { class: "type-label" }, To = { class: "field" }, Po = { class: "type-label" }, Fo = { class: "field" }, Mo = { class: "type-label" }, No = { class: "field" }, Lo = { class: "type-label" }, ko = { class: "field" }, _o = { class: "type-label" }, Uo = {
@@ -9694,7 +9697,7 @@ const Ha = { class: "kanboard" }, Ya = { class: "ml-8px font-500 text-14px" }, X
       ], 64);
     };
   }
-}), Bo = /* @__PURE__ */ Er(Go, [["__scopeId", "data-v-13d8f624"]]);
+}), Bo = /* @__PURE__ */ Er(Go, [["__scopeId", "data-v-ac627294"]]);
 var Rn = { kanboard: {
   layout: {
     add_value_group_placeholder: "Enter a new group id...",
@@ -9741,7 +9744,12 @@ const Vo = jn({
   setup(S, { emit: b }) {
     const { t: y, mergeLocaleMessage: w } = Jt();
     w("en-US", Rn);
-    const m = Sr(), { useFieldsStore: g, useRelationsStore: e, useServerStore: r } = Tn(), c = g(), f = e(), { info: d } = r(), t = ot(S, "layoutOptions", b), o = ot(S, "layoutQuery", b), { collection: i, filter: a, search: n } = Vr(S), { info: u, primaryKeyField: s, fields: l, sortField: p } = pr(i), { sort: v, limit: E, page: $, fields: I } = Me(), { fieldGroups: h } = Pn(l, {
+    const m = Sr(), { useFieldsStore: g, useRelationsStore: e, useServerStore: r } = Tn(), c = g(), f = e(), { info: d } = r(), t = ot(S, "layoutOptions", b), o = ot(S, "layoutQuery", b), { collection: i, filter: a, search: n } = Vr(S), {
+      info: u,
+      primaryKeyField: s,
+      fields: l,
+      sortField: p
+    } = pr(i), { sort: v, limit: E, page: $, fields: I } = Me(), { fieldGroups: h } = Pn(l, {
       title: (re) => re.type === "string" || re.type === "text",
       text: (re) => re.type === "string" || re.type === "text",
       tags: (re) => re.type === "json" || re.type === "csv",
@@ -9765,7 +9773,11 @@ const Vo = jn({
       group: (re) => {
         var ce;
         return (ce = re.meta) != null && ce.options && Object.keys(re.meta.options).includes("choices") && ["string", "integer", "float", "bigInteger"].includes(re.type) ? Object.keys(re.meta.options).includes("choices") : !!f.relations.find(
-          (ge) => Zr({ relation: ge, collection: i.value, field: re.field }) === "m2o"
+          (ge) => Zr({
+            relation: ge,
+            collection: i.value,
+            field: re.field
+          }) === "m2o"
         );
       },
       file: (re) => re.field === "$thumbnail" ? !0 : !!f.relations.find((ce) => ce.collection === S.collection && ce.field === re.field && ce.related_collection === "directus_files")
@@ -9800,7 +9812,9 @@ const Vo = jn({
       var ze, We;
       const re = (ze = xe.value) == null ? void 0 : ze.field, Se = (O == null ? void 0 : O.value) || re, ce = x.value, ge = (We = s.value) == null ? void 0 : We.field, H = {};
       return !ge || !ce ? [] : de.value && !Se ? [] : (ne.value.forEach((k, He) => {
-        const Ye = de.value && re ? k[re] : k.value, et = String(de.value && Se ? k[Se] : k.text);
+        const Ye = de.value && re ? k[re] : k.value, et = String(
+          de.value && Se ? k[Se] : k.text
+        );
         H[Ye] = {
           id: Ye,
           title: Un(et, y),
@@ -9816,7 +9830,35 @@ const Vo = jn({
     });
     function Ke() {
       var te, ie, be, Ae, U, _, z;
-      const re = B("groupField", ((te = h.value.group[0]) == null ? void 0 : te.field) ?? null), Se = B("groupTitle", null), ce = B("dateField", ((ie = h.value.date[0]) == null ? void 0 : ie.field) ?? null), ge = B("tagsField", ((be = h.value.tags[0]) == null ? void 0 : be.field) ?? null), H = B("userField", ((Ae = h.value.user[0]) == null ? void 0 : Ae.field) ?? null), ze = B("titleField", ((U = h.value.title[0]) == null ? void 0 : U.field) ?? null), We = B("textField", ((_ = h.value.text[0]) == null ? void 0 : _.field) ?? null), k = B("showUngrouped", !1), He = B("showIndex", !1), Ye = B("enableInfiniteScroll", !1), et = B("imageSource", ((z = h.value.file[0]) == null ? void 0 : z.field) ?? null), T = B("crop", !0), j = Be(() => h.value.group.find((q) => q.field === re.value));
+      const re = B(
+        "groupField",
+        ((te = h.value.group[0]) == null ? void 0 : te.field) ?? null
+      ), Se = B("groupTitle", null), ce = B(
+        "dateField",
+        ((ie = h.value.date[0]) == null ? void 0 : ie.field) ?? null
+      ), ge = B(
+        "tagsField",
+        ((be = h.value.tags[0]) == null ? void 0 : be.field) ?? null
+      ), H = B(
+        "userField",
+        ((Ae = h.value.user[0]) == null ? void 0 : Ae.field) ?? null
+      ), ze = B(
+        "titleField",
+        ((U = h.value.title[0]) == null ? void 0 : U.field) ?? null
+      ), We = B(
+        "textField",
+        ((_ = h.value.text[0]) == null ? void 0 : _.field) ?? null
+      ), k = B("showUngrouped", !1), He = B("showIndex", !1), Ye = B(
+        "enableInfiniteScroll",
+        !1
+      ), et = B(
+        "imageSource",
+        ((z = h.value.file[0]) == null ? void 0 : z.field) ?? null
+      ), T = B("crop", !0), j = Be(
+        () => h.value.group.find(
+          (q) => q.field === re.value
+        )
+      );
       Xt(re, () => {
         Se.value = null;
       });
@@ -9866,16 +9908,22 @@ const Vo = jn({
     }
     function Fe() {
       var Ae;
-      const re = Be(() => {
-        var U, _, z;
-        return !((z = (_ = (U = P.value) == null ? void 0 : U.meta) == null ? void 0 : _.options) != null && z.choices);
-      }), Se = Be(() => {
+      const re = Be(
+        () => {
+          var U, _, z;
+          return !((z = (_ = (U = P.value) == null ? void 0 : U.meta) == null ? void 0 : _.options) != null && z.choices);
+        }
+      ), Se = Be(() => {
         if (re.value) {
           const U = x.value;
           if (U === null)
             return null;
           const _ = f.relations.find(
-            (z) => Zr({ relation: z, collection: i.value, field: U }) === "m2o"
+            (z) => Zr({
+              relation: z,
+              collection: i.value,
+              field: U
+            }) === "m2o"
           );
           return _ === void 0 || _.related_collection === null ? null : _.related_collection;
         }
@@ -9890,7 +9938,9 @@ const Vo = jn({
       }), We = Be(() => {
         var U;
         return s.value === null || O.value === null ? [] : [(U = s.value) == null ? void 0 : U.field, O.value];
-      }), k = Be(() => re.value ? ce.value.filter((U) => U.type === "string" || U.type === "text") : null), He = (Ae = d.queryLimit) != null && Ae.max && d.queryLimit.max !== -1 ? d.queryLimit.max : 100, {
+      }), k = Be(() => re.value ? ce.value.filter(
+        (U) => U.type === "string" || U.type === "text"
+      ) : null), He = (Ae = d.queryLimit) != null && Ae.max && d.queryLimit.max !== -1 ? d.queryLimit.max : 100, {
         items: Ye,
         loading: et,
         error: T,
@@ -9931,10 +9981,16 @@ const Vo = jn({
             return;
           await m.delete(`${Or(Se.value)}/${U}`);
         } else {
-          const Ie = (ae = (q = (z = P.value) == null ? void 0 : z.meta) == null ? void 0 : q.options) == null ? void 0 : ae.choices.filter((pt) => pt.value !== U);
-          await c.updateField(P.value.collection, P.value.field, {
-            meta: { options: { choices: Ie } }
-          });
+          const Ie = (ae = (q = (z = P.value) == null ? void 0 : z.meta) == null ? void 0 : q.options) == null ? void 0 : ae.choices.filter(
+            (pt) => pt.value !== U
+          );
+          await c.updateField(
+            P.value.collection,
+            P.value.field,
+            {
+              meta: { options: { choices: Ie } }
+            }
+          );
         }
         await M();
       }
@@ -9950,9 +10006,13 @@ const Vo = jn({
           if (!P.value)
             return;
           const Ie = (ae = (q = (z = P.value) == null ? void 0 : z.meta) == null ? void 0 : q.options) == null ? void 0 : ae.choices;
-          Ie.push({ text: U, value: _ }), await c.updateField(P.value.collection, P.value.field, {
-            meta: { options: { choices: Ie } }
-          });
+          Ie.push({ text: U, value: _ }), await c.updateField(
+            P.value.collection,
+            P.value.field,
+            {
+              meta: { options: { choices: Ie } }
+            }
+          );
         }
         await M();
       }
@@ -9967,16 +10027,18 @@ const Vo = jn({
         } else {
           if (!P.value)
             return;
-          const pt = (((Ie = (ae = (q = P.value) == null ? void 0 : q.meta) == null ? void 0 : ae.options) == null ? void 0 : Ie.choices) ?? []).map(
-            (Ot) => Ot.value === U ? {
-              ...Ot,
-              text: _,
-              value: z
-            } : Ot
+          const pt = (((Ie = (ae = (q = P.value) == null ? void 0 : q.meta) == null ? void 0 : ae.options) == null ? void 0 : Ie.choices) ?? []).map((Ot) => Ot.value === U ? {
+            ...Ot,
+            text: _,
+            value: z
+          } : Ot);
+          await c.updateField(
+            P.value.collection,
+            P.value.field,
+            {
+              meta: { options: { choices: pt } }
+            }
           );
-          await c.updateField(P.value.collection, P.value.field, {
-            meta: { options: { choices: pt } }
-          });
         }
         await M();
       }
@@ -9998,9 +10060,13 @@ const Vo = jn({
               Ot,
               Dt
             );
-            await c.updateField(P.value.collection, P.value.field, {
-              meta: { options: { choices: Cn } }
-            });
+            await c.updateField(
+              P.value.collection,
+              P.value.field,
+              {
+                meta: { options: { choices: Cn } }
+              }
+            );
           }
       }
     }
@@ -10044,7 +10110,13 @@ const Vo = jn({
           const k = Se.value[0].startsWith("-") ? Se.value[0].substring(1) : Se.value[0];
           H.includes(k) === !1 && H.push(k);
         }
-        return [x.value, C.value, R.value, N.value, F.value].forEach((k) => {
+        return [
+          x.value,
+          C.value,
+          R.value,
+          N.value,
+          F.value
+        ].forEach((k) => {
           k !== null && H.push(k);
         }), H;
       });
@@ -10095,9 +10167,7 @@ const Vo = jn({
       userFieldType: ue
     };
   }
-}), Yo = [], Xo = [], Zo = [
-  Vo
-], Jo = [], Qo = [], qo = [];
+}), Yo = [], Xo = [], Zo = [Vo], Jo = [], Qo = [], qo = [];
 export {
   Xo as displays,
   Yo as interfaces,

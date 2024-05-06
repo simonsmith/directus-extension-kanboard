@@ -1,5 +1,5 @@
-const hooks = [];
-const endpoints = [];
-const operations = [];
+const hooks = []
+const endpoints = []
+const operations = []
 
-export { endpoints, hooks, operations };
+export {endpoints, hooks, operations}

@@ -37,7 +37,8 @@
     "setup-dev": "pnpm install-directus && pnpm link-extensions",
     "release": "pnpm run build && pnpm changelogen --release && git push --follow-tags && npm publish --tag=latest",
     "add": "directus-extension add",
-    "link": "directus-extension link"
+    "link": "directus-extension link",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@directus/composables": "^10.1.6",
@@ -61,6 +62,7 @@
     "lodash": "^4.17.21",
     "nanoid": "^5.0.4",
     "pinia": "^2.1.7",
+    "prettier": "^3.2.5",
     "sass": "^1.69.5",
     "tsx": "^4.6.2",
     "typescript": "^5.3.3",
