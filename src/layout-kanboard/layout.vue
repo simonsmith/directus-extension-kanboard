@@ -230,31 +230,20 @@
         </v-card>
       </div>
     </v-dialog>
-
-    <!-- drawer-item, changelog popup -->
   </div>
-  <!-- <div class="boards-layout"></div> -->
 </template>
 <script setup lang="ts">
-import {useCollection, useApi, useSync} from '@directus/extensions-sdk'
+import {useCollection, useApi} from '@directus/extensions-sdk'
 import {Field, Filter, Item} from '@directus/types'
-import {
-  ref,
-  computed,
-  defineComponent,
-  PropType,
-  toRefs,
-  defineOptions,
-  inject,
-} from 'vue'
+import {ref, computed, toRefs, defineOptions} from 'vue'
 import {useI18n} from 'vue-i18n'
+import {useRouter} from 'vue-router'
 import Group from './components/group.vue'
 import {LayoutOptions} from './types'
 import Draggable from 'vuedraggable'
 import {notify} from '../share/utils/notify'
 import {formatDateTime, convertToDisplayName} from '../share/utils/formatData'
 import {partImage} from '../share/utils/part-image'
-import {ValueIteratee} from 'lodash'
 
 defineOptions({inheritAttrs: false})
 
@@ -309,8 +298,6 @@ const editDialogOpen = ref<string | number | null>(null)
 const editTitle = ref('')
 const editValue = ref('')
 function openEditGroup(group: Group) {
-  console.log('group', group)
-
   editDialogOpen.value = group.id
   editTitle.value = group.title
   editValue.value = group.id
@@ -426,30 +413,15 @@ const valueIndex = ref<Number>(0)
 const disablePrevItem = ref(false)
 const disableNextItem = ref(false)
 
+const router = useRouter()
+
 function handleOpenDrawerEditItem(items: Array, item: Object, index: Number) {
-  listItems.value = items
-  valueIndex.value = index
-
-  if (listItems.value.length === 1) {
-    disablePrevItem.value = true
-    disableNextItem.value = true
-  } else if (index === 0) {
-    disablePrevItem.value = true
-    disableNextItem.value = false
-  } else if (index === listItems.value.length - 1) {
-    disablePrevItem.value = false
-    disableNextItem.value = true
-  } else {
-    disablePrevItem.value = false
-    disableNextItem.value = false
-  }
-
-  Object.keys(item).forEach((key) => {
-    edits.value[key] = item[key]
-  })
-
-  openDrawerItemEdit.value = true
+  const next = router.resolve(
+    `/content/${props.collection}/${encodeURIComponent(item.id)}`,
+  )
+  router.push(next)
 }
+
 const openChangeLog = ref(false)
 const openChangeLogDetail = ref(false)
 const listRevisions = ref([])

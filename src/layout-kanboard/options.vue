@@ -124,18 +124,6 @@ const userFieldSync = useSync(props, 'userField', emit)
     <template #title>{{ t('layouts.kanban.advanced') }}</template>
 
     <div class="nested-options">
-      <!-- <div class="field">
-				<div class="type-label">{{ t('layouts.kanban.tags') }}</div>
-				<v-select
-					v-model="tagsFieldSync"
-					:items="fieldGroups.tags"
-					item-value="field"
-					item-text="name"
-					:placeholder="t('layouts.kanban.tags_placeholder')"
-					show-deselect
-				/>
-			</div> -->
-
       <div class="field">
         <div class="type-label">{{ t('layouts.kanban.date') }}</div>
         <v-select
@@ -193,10 +181,6 @@ const userFieldSync = useSync(props, 'userField', emit)
           :label="t('layouts.kanban.show')"
         />
       </div>
-      <!-- <div class="field">
-				<div class="type-label">{{ 'Infinite Scroll' }}</div>
-				<v-checkbox v-model="showUngroupedSync" block label="Enable" />
-			</div> -->
     </div>
   </v-detail>
 </template>
