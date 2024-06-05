@@ -38,11 +38,7 @@
     </header>
     <main>
       <div class="main-content">
-        <display-formatted-value
-          type="text"
-          :value="item?.[layoutOptions?.textField]"
-          format
-        ></display-formatted-value>
+        <span class="value">{{ item?.[layoutOptions?.textField] }}</span>
       </div>
       <div class="w-24px h24px">
         <v-image
