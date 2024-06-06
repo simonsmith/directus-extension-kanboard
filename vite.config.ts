@@ -1,4 +1,4 @@
-import {defineConfig, loadEnv} from 'vite'
+import {defineConfig} from 'vite'
 import vue from '@vitejs/plugin-vue'
 import {resolve} from 'path'
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
@@ -8,7 +8,6 @@ import packageInfo from './package.json'
 import yaml from '@rollup/plugin-yaml'
 
 export default defineConfig(({command, mode}) => {
-  const env = loadEnv(mode, process.cwd(), '')
   let outDir = process.env.OUT_DIR || './dist'
 
   const config: any = {
@@ -19,12 +18,10 @@ export default defineConfig(({command, mode}) => {
   }
 
   return {
-    // mode: process.env.UI ? '': 'myserver',
     resolve: {
       alias: [
         {find: '~/', replacement: resolve(__dirname, '/')},
         {find: '@', replacement: resolve(__dirname, './src')},
-        // {find: '@', replacement: resolve(__dirname, './../directus-origin/app/src')},
       ],
     },
     build: {
@@ -34,6 +31,7 @@ export default defineConfig(({command, mode}) => {
       lib: {
         ...config,
       },
+      sourcemap: 'inline',
       rollupOptions: {
         external: [
           'vue',
