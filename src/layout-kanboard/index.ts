@@ -1,5 +1,5 @@
-import {computed, ref, toRefs, watch, provide} from 'vue'
-import {useI18n, createI18n} from 'vue-i18n'
+import {computed, ref, toRefs, watch} from 'vue'
+import {useI18n} from 'vue-i18n'
 import {
   defineLayout,
   useCollection,
@@ -11,8 +11,6 @@ import {
 } from '@directus/extensions-sdk'
 import {getEndpoint, getRelationType, moveInArray} from '@directus/utils'
 import {translate} from '../shared/utils/translate-literal'
-import {getRootPath} from '../shared/utils/get-root-path'
-import {addTokenToURL} from '../shared/utils/add-token-to-url'
 import LayoutComponent from './layout.vue'
 import Options from './options.vue'
 import enUS from '../lang/en-US.yaml'
@@ -41,7 +39,7 @@ export default defineLayout({
     const layoutOptions = useSync(props, 'layoutOptions', emit)
     const layoutQuery = useSync(props, 'layoutQuery', emit)
 
-    const {collection, filter, search} = toRefs(props)
+    const {collection} = toRefs(props)
 
     const {
       info,
@@ -197,20 +195,6 @@ export default defineLayout({
 
       return Object.values(itemGroups).sort((a, b) => a.sort - b.sort)
     })
-
-    function parseUrl(file: Record<string, any>) {
-      if (!file || !file.type) return
-      if (file.type.startsWith('image') === false) return
-      if (file.type.includes('svg')) return
-
-      const fit = crop.value
-        ? '&width=250&height=150'
-        : `&key=system-medium-contain`
-
-      const url =
-        getRootPath() + `assets/${file.id}?modified=${file.modified_on}` + fit
-      return addTokenToURL(url, null, api)
-    }
 
     function useLayoutOptions() {
       const groupField = createViewOption<string | null>(
