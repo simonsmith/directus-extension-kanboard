@@ -9,7 +9,7 @@ import yaml from '@rollup/plugin-yaml'
 
 export default defineConfig(({command, mode}) => {
   const env = loadEnv(mode, process.cwd(), '')
-  let outDir = './dist'
+  let outDir = process.env.OUT_DIR || './dist'
 
   const config: any = {
     entry: './build-app.ts',
