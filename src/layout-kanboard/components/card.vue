@@ -177,6 +177,9 @@ async function handleConfirmDelete(item: Object) {
   border: var(--kb-card-border-width) var(--kb-card-border-style)
     var(--kb-card-border-color);
 }
+.card-title {
+  margin-right: 28px;
+}
 .card:hover .card-title {
   text-decoration-line: underline;
 }
@@ -270,8 +273,8 @@ main {
 }
 .button-edit-item {
   position: absolute;
-  right: 15px;
-  top: 18px;
+  right: 10px;
+  top: 10px;
   --v-button-min-width: 32px;
   --v-button-width: 32px;
   --v-button-height: 32px;
@@ -284,7 +287,7 @@ main {
   --v-button-background-color-hover: none !important;
 }
 .button-edit-item:hover {
-  --v-icon-color: var(--theme--foreground);
+  --v-icon-color: var(--kb-edit-button-color);
 }
 .card:hover .button-edit-item {
   opacity: 1;

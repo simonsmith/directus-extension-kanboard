@@ -585,6 +585,8 @@ const choices = computed<{text: string}[]>(
   --kb-card-border-style: var(--kb-column-border-style);
   --kb-card-border-radius: var(--kb-column-border-radius);
   --kb-add-group-background: #eee;
+  --kb-edit-button-background: #ccc;
+  --kb-edit-button-color: #999;
 }
 </style>
 
