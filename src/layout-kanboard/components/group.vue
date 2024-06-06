@@ -2,7 +2,6 @@
   <section class="group">
     <header>
       <div class="w-55% flex gap-5px items-center">
-        <!-- <component :is="`display-${field?.meta?.display}`" v-bind="field?.meta?.display_options" :type="field?.type" :value="fieldValue" /> -->
         <span v-if="layoutOptions?.showIndex">{{ groupIndex + 1 }} -</span>
         <div class="capitalize" @click="valueOpenEditGroupTitle = true">
           {{ groupTitle }}
@@ -80,22 +79,9 @@
   </section>
 </template>
 <script setup lang="ts">
-import {
-  computed,
-  defineComponent,
-  onMounted,
-  PropType,
-  ref,
-  toRefs,
-  watch,
-} from 'vue'
-import {
-  useApi,
-  useCollection,
-  useItems,
-  useSync,
-} from '@directus/extensions-sdk'
-import {Field, Filter, LogicalFilterAND} from '@directus/types'
+import {computed, ref, toRefs, watch} from 'vue'
+import {useApi, useCollection, useItems} from '@directus/extensions-sdk'
+import {Filter, LogicalFilterAND} from '@directus/types'
 import {LayoutOptions} from '../types'
 import Draggable from 'vuedraggable'
 import Card from './card.vue'
@@ -182,36 +168,17 @@ const filter = computed<LogicalFilterAND>(() => ({
   _and: [{[field.value.field]: {_eq: fieldValue.value}}],
 }))
 
-// const sort = computed(() => layoutOptions.value?.sort);
-
-watch([filter, sort, search], (after, before) => {
-  if (JSON.stringify(after) != JSON.stringify(before)) {
-    // pages.value = [1];
-  }
-})
-
 const page = ref(1)
 
-const {items, totalPages, changeManualSort, getItems, getItemCount} = useItems(
-  collectionKey,
-  {
-    sort,
-    search,
-    page,
-    filter,
-    fields,
-  },
-)
+const {items, getItemCount} = useItems(collectionKey, {
+  sort,
+  search,
+  page,
+  filter,
+  fields,
+})
 
-interface EndEvent extends CustomEvent {
-  oldIndex: number
-  newIndex: number
-  from: HTMLElement
-  to: HTMLElement
-  item: HTMLElement
-}
-
-async function change(event, group) {
+async function change(event) {
   const pkField = primaryKeyField.value?.field
 
   let item: string | number | undefined = undefined
@@ -244,14 +211,11 @@ async function change(event, group) {
     const before = group[event.moved.newIndex + 1]?.[pkField]
     const after = group[event.moved.oldIndex + 1]?.[pkField]
 
-    // to = ((event.moved.oldIndex - event.moved.newIndex) > 1) ? after : before;
-
     to = event.moved.oldIndex - event.moved.newIndex > 1 ? before : to
     to = event.moved.newIndex - event.moved.oldIndex > 1 ? after : to
   }
 
   if (item !== undefined && to !== undefined) {
-    // changeManualSort({ item, to });
     const endpoint = computed(() => `/utils/sort/${collectionKey.value}`)
     await api.post(endpoint.value, {item, to})
 
@@ -294,9 +258,6 @@ function handleDeleteItem(index: number) {
 function handleEditItem(item: Item, index: number) {
   emit('editItem', items.value, item, index)
 }
-const isArrayCard = ref([])
-const indexGroup = ref(null)
-const data = ref([])
 function handleDeleteGroup() {
   emit('deleteGroup')
 }
