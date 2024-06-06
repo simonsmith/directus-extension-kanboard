@@ -69,7 +69,7 @@ export default defineLayout({
             (relation) =>
               relation.collection === junction.collection &&
               relation.field === junction.meta?.junction_field &&
-              relation.related_collection === 'directus_users',
+              relation.related_collection === 'anythink_users',
           )
 
           return related !== undefined
@@ -78,7 +78,7 @@ export default defineLayout({
             (relation) =>
               relation.collection === props.collection &&
               relation.field === field.field &&
-              relation.related_collection === 'directus_users',
+              relation.related_collection === 'anythink_users',
           )
 
           return related !== undefined
