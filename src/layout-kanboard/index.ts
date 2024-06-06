@@ -57,12 +57,13 @@ export default defineLayout({
       date: (field) =>
         ['date', 'time', 'dateTime', 'timestamp'].includes(field.type),
       user: (field) => {
-        const junction = relationsStore.relations.find(
-          (relation) =>
+        const junction = relationsStore.relations.find((relation) => {
+          return (
             relation.meta?.one_collection === props.collection &&
             relation.meta.one_field === field.field &&
-            relation.meta.junction_field !== null,
-        )
+            relation.meta.junction_field !== null
+          )
+        })
 
         if (junction !== undefined) {
           const related = relationsStore.relations.find(
@@ -71,7 +72,6 @@ export default defineLayout({
               relation.field === junction.meta?.junction_field &&
               relation.related_collection === 'anythink_users',
           )
-
           return related !== undefined
         } else {
           const related = relationsStore.relations.find(

@@ -169,8 +169,7 @@ const userFieldSync = useSync(props, 'userField', emit)
           item-value="field"
           item-text="name"
           :placeholder="t('layouts.kanban.user_placeholder')"
-          show-deselect
-        />
+          show-deselect />
       </div>
 
       <div class="field">
