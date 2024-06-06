@@ -1,6 +1,6 @@
-(function(){"use strict";try{if(typeof document<"u"){var r=document.createElement("style");r.appendChild(document.createTextNode('*,:before,:after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.grid{display:grid}.mb-8px{margin-bottom:8px}.ml-12px{margin-left:12px}.ml-20px{margin-left:20px}.ml-4px{margin-left:4px}.ml-5px{margin-left:5px}.ml-8px{margin-left:8px}.block,[block=""]{display:block}.hidden{display:none}.h-100\\%{height:100%}.h-40px{height:40px}.h-44px{height:44px}.h24px{height:24px}.w-100\\%{width:100%}.w-24px{width:24px}.w-256px{width:256px}.w-40px{width:40px}.w-44px{width:44px}.w-55\\%{width:55%}.flex{display:flex}.flex-grow{flex-grow:1}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.cursor-pointer{cursor:pointer}.items-center{align-items:center}.justify-center{justify-content:center}.gap-5px{gap:5px}.overflow-y-auto{overflow-y:auto}.border{border-width:1px}.rounded-50\\%{border-radius:50%}.rounded-full{border-radius:9999px}.bg-\\[var\\(--green-10\\)\\]{background-color:var(--green-10)}.bg-\\[var\\(--purple-25\\)\\]{background-color:var(--purple-25)}.bg-\\[var\\(--red-10\\)\\]{background-color:var(--red-10)}.bg-slate-200{--un-bg-opacity:1;background-color:rgb(226 232 240 / var(--un-bg-opacity))}.hover\\:bg-\\[var\\(--purple-50\\)\\]:hover{background-color:var(--purple-50)}.px-10px{padding-left:10px;padding-right:10px}.px-40px{padding-left:40px;padding-right:40px}.py-5px{padding-top:5px;padding-bottom:5px}.text-12px{font-size:12px}.text-14px{font-size:14px}.text-15px{font-size:15px}.text-16px{font-size:16px}.text-\\[var\\(--purple-75\\)\\]{color:var(--purple-75)}.text-\\[var\\(--theme--danger\\)\\]{color:var(--theme--danger)}.text-\\[var\\(--theme--success\\)\\]{color:var(--theme--success)}.hover\\:text-\\[var\\(--project-color\\)\\]:hover{color:var(--project-color)}.hover\\:text-\\[var\\(--theme--danger\\)\\]:hover{color:var(--theme--danger)}.font-400{font-weight:400}.font-500{font-weight:500}.font-600{font-weight:600}.font-700{font-weight:700}.leading-18px{line-height:18px}.capitalize{text-transform:capitalize}.underline{text-decoration-line:underline}.filter{filter:var(--un-blur) var(--un-brightness) var(--un-contrast) var(--un-drop-shadow) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate) var(--un-sepia)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.card[data-v-db33df6d]{display:flex;flex-flow:column nowrap;gap:12px;flex-grow:1;min-height:100%;border-radius:var(--kb-card-border-radius);box-shadow:0 1px 4px rgba(var(--card-shadow-color),.05);background-color:var(--kb-card-background);align-items:stretch;cursor:pointer;border:var(--kb-card-border-width) var(--kb-card-border-style) var(--kb-card-border-color)}.card:hover .card-title[data-v-db33df6d]{text-decoration-line:underline}.card>*[data-v-db33df6d]{padding-left:16px;padding-right:16px}.card>*[data-v-db33df6d]:first-child{border-top-left-radius:16px;border-top-right-radius:16px;padding-top:16px}.card>*[data-v-db33df6d]:last-child{border-bottom-left-radius:16px;border-bottom-right-radius:16px;padding-bottom:16px}header[data-v-db33df6d]{font-weight:700;position:relative}header>.card-title[data-v-db33df6d]{white-space:inherit;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}header>.card-title.muted[data-v-db33df6d]{color:var(--foreground-subdued)}.card-icon[data-v-db33df6d]{width:48px;height:48px;background-color:var(--background-subdued);border-radius:var(--border-radius);font-size:32px;flex:0 0 48px;display:flex;justify-content:stretch;align-items:stretch}main[data-v-db33df6d]{padding-bottom:12px;display:flex;flex-wrap:wrap;justify-content:end;align-items:end;gap:5px}.main-content[data-v-db33df6d]{width:100%;flex-wrap:wrap;display:-webkit-box;max-height:50px;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;white-space:normal;-webkit-line-clamp:2;line-height:25px}.card-icon>.card-icon-inner[data-v-db33df6d]{padding:0;flex-grow:1;text-align:center}.render-avatar-user-created[data-v-db33df6d]{aspect-ratio:1/1;height:100%;width:100%;object-fit:cover;border-radius:50%}.render-thumbnail[data-v-db33df6d]{max-width:100%;object-fit:contain;border-radius:6px}.card-image-fill[data-v-db33df6d]{width:250px;height:150px;object-fit:cover}.button-edit-item[data-v-db33df6d]{position:absolute;right:15px;top:18px;--v-button-min-width: 32px;--v-button-width: 32px;--v-button-height: 32px;--v-icon-color: var(--fc-neutral-text-color);font-size:16px;border-radius:4px;--v-button-background-color: none;--v-icon-size: 16px;opacity:0;--v-button-background-color-hover: none !important}.button-edit-item[data-v-db33df6d]:hover{--v-icon-color: var(--theme--foreground)}.card:hover .button-edit-item[data-v-db33df6d]{opacity:1}.button-edit-item[data-v-db33df6d]:before{content:"";width:100%;height:100%;opacity:.4;background-color:var(--theme--form--field--input--border-color);right:0;position:absolute;border-radius:4px}.button-edit-item[data-v-db33df6d]:hover:before{opacity:1;background-color:var(--theme--form--field--input--border-color-hover)}.active[data-v-db33df6d]{opacity:1;--v-button-background-color-active: none !important}.list-menu-item[data-v-db33df6d]{cursor:pointer;margin:8px}.list-menu-item[data-v-db33df6d]:hover{color:var(--project-color)}.confirm-delete .v-card-title[data-v-db33df6d]{justify-content:center;font-size:18px;font-weight:700}.confirm-delete .v-card-text[data-v-db33df6d]{text-align:center;font-size:16px;font-weight:600}.button-confirm-delete[data-v-db33df6d]{--v-button-background-color: var(--theme--danger);--v-button-background-color-hover: var(--danger-125);--v-button-background-color-active: var(--theme--danger)}section[data-v-1b5c00ef]{background-color:#000;border-radius:var(--theme--border-radius);flex:0 0 320px;display:flex;flex-flow:column nowrap;align-items:stretch}header[data-v-1b5c00ef]{padding:0 16px 16px;display:flex;justify-content:space-between}main[data-v-1b5c00ef]{flex-grow:1}.edit-title-group[data-v-1b5c00ef]{width:100%;--theme--form--field--input--height: 30px;--theme--form--field--input--padding: 5px}.cards[data-v-1b5c00ef]{padding:16px;gap:15px;display:flex;flex-flow:column nowrap;flex-grow:1;min-height:100%}.cards>*[data-v-1b5c00ef]{display:flex;flex:0 0 auto}.button-header[data-v-1b5c00ef]{--v-button-min-width: 32px;--v-button-width: 32px;--v-button-height: 32px;--v-button-background-color: none;--v-icon-color: var(--fc-neutral-text-color);--v-button-background-color-hover: none;--v-button-background-color-active: none}.button-header[data-v-1b5c00ef]:hover{--v-icon-color: var(--theme--foreground)}.list-menu-item[data-v-1b5c00ef]{cursor:pointer;margin:8px}.icon-menu[data-v-1b5c00ef]{--v-icon-size: 16px}:root{--kb-height: calc(100% - 113px) ;--kb-container-padding: 24px;--kb-column-background: #eee;--kb-column-border-width: 1px;--kb-column-border-color: #eee;--kb-column-border-color-active: #aaa;--kb-column-border-style: solid;--kb-column-border-radius: 4px;--kb-card-background: #ccc;--kb-card-border-width: var(--kb-column-border-width);--kb-card-border-color: #aaa;--kb-card-border-style: var(--kb-column-border-style);--kb-card-border-radius: var(--kb-column-border-radius);--kb-add-group-background: #eee}.boards-layout[data-v-5e0ce28a]{padding:var(--content-padding);padding-top:0;display:flex;align-items:stretch;gap:var(--content-padding)}.kanboard[data-v-5e0ce28a]{display:flex;height:var(--kb-height);padding:var(--kb-container-padding);overflow-x:auto;overflow-y:hidden;--user-spacing: 16px}.kanboard[data-v-5e0ce28a] .draggable[data-v-5e0ce28a]{display:flex}.kanboard[data-v-5e0ce28a] .draggable[data-v-5e0ce28a] .group[data-v-5e0ce28a]{display:flex;flex-direction:column;width:320px;padding:8px 0;background-color:var(--kb-column-background);border:var(--kb-column-border-width) var(--kb-column-border-style) var(--kb-column-border-color);border-radius:var(--kb-column-border-radius);margin-right:20px;transition:border-color var(--transition) var(--fast)}.kanboard[data-v-5e0ce28a] .draggable[data-v-5e0ce28a] .group[data-v-5e0ce28a][data-v-5e0ce28a]:active{border-color:var(--kb-column-border-color-active);cursor:move}.disable-button-next-pre[data-v-5e0ce28a]{pointer-events:none;cursor:not-allowed!important;background:var(--purple-10);opacity:.5}.item-change-log[data-v-5e0ce28a]{--v-icon-size: 15px;display:flex;padding:10px 40px}.item-change-log[data-v-5e0ce28a]:hover{background-color:var(--blue-10)}.render-thumbnail[data-v-5e0ce28a]{aspect-ratio:16/9;height:100%;width:100%;object-fit:cover;border-radius:50%}.item-detail-revision[data-v-5e0ce28a]{font-size:15px;margin-bottom:20px}.item-detail-revision[data-v-5e0ce28a]:first-child{margin-bottom:0}.add-group[data-v-5e0ce28a]{min-width:252px;height:44px;display:flex;align-items:center;background-color:var(--kb-add-group-background);padding:14px 0 14px 12px;border-radius:4px;cursor:pointer}.confirm-delete .v-card-title[data-v-5e0ce28a]{justify-content:center;font-size:18px;font-weight:700}.confirm-delete .v-card-text[data-v-5e0ce28a]{text-align:center;font-size:16px;font-weight:600}.button-confirm-delete[data-v-5e0ce28a]{--v-button-background-color: var(--theme--danger);--v-button-background-color-hover: var(--danger-125);--v-button-background-color-active: var(--theme--danger)}.nested-options[data-v-5d0d52af]{display:grid;grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full];gap:var(--theme--form--row-gap) var(--theme--form--column-gap)}')),document.head.appendChild(r)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
+(function(){"use strict";try{if(typeof document<"u"){var r=document.createElement("style");r.appendChild(document.createTextNode('*,:before,:after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.grid{display:grid}.mb-8px{margin-bottom:8px}.ml-12px{margin-left:12px}.ml-20px{margin-left:20px}.ml-4px{margin-left:4px}.ml-5px{margin-left:5px}.ml-8px{margin-left:8px}.block,[block=""]{display:block}.hidden{display:none}.h-100\\%{height:100%}.h-40px{height:40px}.h-44px{height:44px}.h24px{height:24px}.w-100\\%{width:100%}.w-24px{width:24px}.w-256px{width:256px}.w-40px{width:40px}.w-44px{width:44px}.w-55\\%{width:55%}.flex{display:flex}.flex-grow{flex-grow:1}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.cursor-pointer{cursor:pointer}.items-center{align-items:center}.justify-center{justify-content:center}.gap-5px{gap:5px}.overflow-y-auto{overflow-y:auto}.border{border-width:1px}.rounded-50\\%{border-radius:50%}.rounded-full{border-radius:9999px}.bg-\\[var\\(--green-10\\)\\]{background-color:var(--green-10)}.bg-\\[var\\(--purple-25\\)\\]{background-color:var(--purple-25)}.bg-\\[var\\(--red-10\\)\\]{background-color:var(--red-10)}.bg-slate-200{--un-bg-opacity:1;background-color:rgb(226 232 240 / var(--un-bg-opacity))}.hover\\:bg-\\[var\\(--purple-50\\)\\]:hover{background-color:var(--purple-50)}.px-10px{padding-left:10px;padding-right:10px}.px-40px{padding-left:40px;padding-right:40px}.py-5px{padding-top:5px;padding-bottom:5px}.text-12px{font-size:12px}.text-14px{font-size:14px}.text-15px{font-size:15px}.text-16px{font-size:16px}.text-\\[var\\(--purple-75\\)\\]{color:var(--purple-75)}.text-\\[var\\(--theme--danger\\)\\]{color:var(--theme--danger)}.text-\\[var\\(--theme--success\\)\\]{color:var(--theme--success)}.hover\\:text-\\[var\\(--project-color\\)\\]:hover{color:var(--project-color)}.hover\\:text-\\[var\\(--theme--danger\\)\\]:hover{color:var(--theme--danger)}.font-400{font-weight:400}.font-500{font-weight:500}.font-600{font-weight:600}.font-700{font-weight:700}.leading-18px{line-height:18px}.capitalize{text-transform:capitalize}.underline{text-decoration-line:underline}.filter{filter:var(--un-blur) var(--un-brightness) var(--un-contrast) var(--un-drop-shadow) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate) var(--un-sepia)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.card[data-v-3a6f9d1d]{display:flex;flex-flow:column nowrap;gap:12px;flex-grow:1;min-height:100%;border-radius:var(--kb-card-border-radius);box-shadow:0 1px 4px rgba(var(--card-shadow-color),.05);background-color:var(--kb-card-background);align-items:stretch;cursor:pointer;border:var(--kb-card-border-width) var(--kb-card-border-style) var(--kb-card-border-color)}.card:hover .card-title[data-v-3a6f9d1d]{text-decoration-line:underline}.card>*[data-v-3a6f9d1d]{padding-left:16px;padding-right:16px}.card>*[data-v-3a6f9d1d]:first-child{border-top-left-radius:16px;border-top-right-radius:16px;padding-top:16px}.card>*[data-v-3a6f9d1d]:last-child{border-bottom-left-radius:16px;border-bottom-right-radius:16px;padding-bottom:16px}header[data-v-3a6f9d1d]{font-weight:700;position:relative}header>.card-title[data-v-3a6f9d1d]{white-space:inherit;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}header>.card-title.muted[data-v-3a6f9d1d]{color:var(--foreground-subdued)}.card-icon[data-v-3a6f9d1d]{width:48px;height:48px;background-color:var(--background-subdued);border-radius:var(--border-radius);font-size:32px;flex:0 0 48px;display:flex;justify-content:stretch;align-items:stretch}main[data-v-3a6f9d1d]{padding-bottom:12px;display:flex;flex-wrap:wrap;justify-content:end;align-items:end;gap:5px}.main-content[data-v-3a6f9d1d]{width:100%;flex-wrap:wrap;display:-webkit-box;max-height:50px;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;white-space:normal;-webkit-line-clamp:2;line-height:25px}.card-icon>.card-icon-inner[data-v-3a6f9d1d]{padding:0;flex-grow:1;text-align:center}.render-avatar-user-created[data-v-3a6f9d1d]{aspect-ratio:1/1;height:100%;width:100%;object-fit:cover;border-radius:50%}.render-thumbnail[data-v-3a6f9d1d]{max-width:100%;object-fit:contain;border-radius:6px}.card-image-fill[data-v-3a6f9d1d]{width:250px;height:150px;object-fit:cover}.button-edit-item[data-v-3a6f9d1d]{position:absolute;right:15px;top:18px;--v-button-min-width: 32px;--v-button-width: 32px;--v-button-height: 32px;--v-icon-color: var(--fc-neutral-text-color);font-size:16px;border-radius:4px;--v-button-background-color: none;--v-icon-size: 16px;opacity:0;--v-button-background-color-hover: none !important}.button-edit-item[data-v-3a6f9d1d]:hover{--v-icon-color: var(--theme--foreground)}.card:hover .button-edit-item[data-v-3a6f9d1d]{opacity:1}.button-edit-item[data-v-3a6f9d1d]:before{content:"";width:100%;height:100%;opacity:.4;background-color:var(--theme--form--field--input--border-color);right:0;position:absolute;border-radius:4px}.button-edit-item[data-v-3a6f9d1d]:hover:before{opacity:1;background-color:var(--theme--form--field--input--border-color-hover)}.active[data-v-3a6f9d1d]{opacity:1;--v-button-background-color-active: none !important}.list-menu-item[data-v-3a6f9d1d]{cursor:pointer;margin:8px}.list-menu-item[data-v-3a6f9d1d]:hover{color:var(--project-color)}.confirm-delete .v-card-title[data-v-3a6f9d1d]{justify-content:center;font-size:18px;font-weight:700}.confirm-delete .v-card-text[data-v-3a6f9d1d]{text-align:center;font-size:16px;font-weight:600}.button-confirm-delete[data-v-3a6f9d1d]{--v-button-background-color: var(--theme--danger);--v-button-background-color-hover: var(--danger-125);--v-button-background-color-active: var(--theme--danger)}section[data-v-1b5c00ef]{background-color:#000;border-radius:var(--theme--border-radius);flex:0 0 320px;display:flex;flex-flow:column nowrap;align-items:stretch}header[data-v-1b5c00ef]{padding:0 16px 16px;display:flex;justify-content:space-between}main[data-v-1b5c00ef]{flex-grow:1}.edit-title-group[data-v-1b5c00ef]{width:100%;--theme--form--field--input--height: 30px;--theme--form--field--input--padding: 5px}.cards[data-v-1b5c00ef]{padding:16px;gap:15px;display:flex;flex-flow:column nowrap;flex-grow:1;min-height:100%}.cards>*[data-v-1b5c00ef]{display:flex;flex:0 0 auto}.button-header[data-v-1b5c00ef]{--v-button-min-width: 32px;--v-button-width: 32px;--v-button-height: 32px;--v-button-background-color: none;--v-icon-color: var(--fc-neutral-text-color);--v-button-background-color-hover: none;--v-button-background-color-active: none}.button-header[data-v-1b5c00ef]:hover{--v-icon-color: var(--theme--foreground)}.list-menu-item[data-v-1b5c00ef]{cursor:pointer;margin:8px}.icon-menu[data-v-1b5c00ef]{--v-icon-size: 16px}:root{--kb-height: calc(100% - 113px) ;--kb-container-padding: 24px;--kb-column-background: #eee;--kb-column-border-width: 1px;--kb-column-border-color: #eee;--kb-column-border-color-active: #aaa;--kb-column-border-style: solid;--kb-column-border-radius: 4px;--kb-card-background: #ccc;--kb-card-border-width: var(--kb-column-border-width);--kb-card-border-color: #aaa;--kb-card-border-style: var(--kb-column-border-style);--kb-card-border-radius: var(--kb-column-border-radius);--kb-add-group-background: #eee}.boards-layout[data-v-5e0ce28a]{padding:var(--content-padding);padding-top:0;display:flex;align-items:stretch;gap:var(--content-padding)}.kanboard[data-v-5e0ce28a]{display:flex;height:var(--kb-height);padding:var(--kb-container-padding);overflow-x:auto;overflow-y:hidden;--user-spacing: 16px}.kanboard[data-v-5e0ce28a] .draggable[data-v-5e0ce28a]{display:flex}.kanboard[data-v-5e0ce28a] .draggable[data-v-5e0ce28a] .group[data-v-5e0ce28a]{display:flex;flex-direction:column;width:320px;padding:8px 0;background-color:var(--kb-column-background);border:var(--kb-column-border-width) var(--kb-column-border-style) var(--kb-column-border-color);border-radius:var(--kb-column-border-radius);margin-right:20px;transition:border-color var(--transition) var(--fast)}.kanboard[data-v-5e0ce28a] .draggable[data-v-5e0ce28a] .group[data-v-5e0ce28a][data-v-5e0ce28a]:active{border-color:var(--kb-column-border-color-active);cursor:move}.disable-button-next-pre[data-v-5e0ce28a]{pointer-events:none;cursor:not-allowed!important;background:var(--purple-10);opacity:.5}.item-change-log[data-v-5e0ce28a]{--v-icon-size: 15px;display:flex;padding:10px 40px}.item-change-log[data-v-5e0ce28a]:hover{background-color:var(--blue-10)}.render-thumbnail[data-v-5e0ce28a]{aspect-ratio:16/9;height:100%;width:100%;object-fit:cover;border-radius:50%}.item-detail-revision[data-v-5e0ce28a]{font-size:15px;margin-bottom:20px}.item-detail-revision[data-v-5e0ce28a]:first-child{margin-bottom:0}.add-group[data-v-5e0ce28a]{min-width:252px;height:44px;display:flex;align-items:center;background-color:var(--kb-add-group-background);padding:14px 0 14px 12px;border-radius:4px;cursor:pointer}.confirm-delete .v-card-title[data-v-5e0ce28a]{justify-content:center;font-size:18px;font-weight:700}.confirm-delete .v-card-text[data-v-5e0ce28a]{text-align:center;font-size:16px;font-weight:600}.button-confirm-delete[data-v-5e0ce28a]{--v-button-background-color: var(--theme--danger);--v-button-background-color-hover: var(--danger-125);--v-button-background-color-active: var(--theme--danger)}.nested-options[data-v-5d0d52af]{display:grid;grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full];gap:var(--theme--form--row-gap) var(--theme--form--column-gap)}')),document.head.appendChild(r)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
 import * as Dn from "vue";
-import { defineComponent as xr, ref as Ie, watch as Xt, resolveComponent as De, resolveDirective as Br, openBlock as Ce, createElementBlock as ze, createElementVNode as ne, createBlock as ht, normalizeClass as Rt, unref as V, createCommentVNode as dt, createVNode as q, withCtx as me, withDirectives as Zt, withModifiers as tr, toDisplayString as he, createTextVNode as tt, toRefs as Vr, computed as Ke, Fragment as Nr, renderList as Yr, isRef as mt } from "vue";
+import { defineComponent as xr, ref as Ie, watch as Xt, resolveComponent as De, resolveDirective as Br, openBlock as Ce, createElementBlock as ze, createElementVNode as ne, createBlock as ht, normalizeClass as Rt, unref as V, createCommentVNode as dt, toDisplayString as me, withCtx as he, withDirectives as Zt, withModifiers as tr, createVNode as ee, createTextVNode as tt, toRefs as Vr, computed as Ke, Fragment as Nr, renderList as Yr, isRef as mt } from "vue";
 import { useI18n as Jt } from "vue-i18n";
 import { useApi as Sr, useCollection as pr, useItems as cn, useSync as ot, defineLayout as Tn, useStores as jn, useFilterFields as Pn } from "@directus/extensions-sdk";
 import { useRouter as Fn } from "vue-router";
@@ -412,22 +412,22 @@ var mn = { exports: {} };
               A.push(F.concat), C.push(`${P}.concat`);
               continue;
             }
-            const N = F.ref ? F.ref.resolve(h, x, O) : h, W = F.is ? [F] : F.switch, ee = C.length;
-            for (let ue = 0; ue < W.length; ++ue) {
-              const { is: z, then: Y, otherwise: le } = W[ue], ae = `${P}${F.switch ? "." + ue : ""}`;
-              if (z.$_match(N, x.nest(z, `${ae}.is`), O)) {
+            const N = F.ref ? F.ref.resolve(h, x, O) : h, W = F.is ? [F] : F.switch, q = C.length;
+            for (let le = 0; le < W.length; ++le) {
+              const { is: K, then: Y, otherwise: ue } = W[le], ae = `${P}${F.switch ? "." + le : ""}`;
+              if (K.$_match(N, x.nest(K, `${ae}.is`), O)) {
                 if (Y) {
                   const Ee = x.localize([...x.path, `${ae}.then`], x.ancestors, x.schemas), { schema: ve, id: Se } = Y._generate(h, Ee, O);
                   A.push(ve), C.push(`${ae}.then${Se ? `(${Se})` : ""}`);
                   break;
                 }
-              } else if (le) {
-                const Ee = x.localize([...x.path, `${ae}.otherwise`], x.ancestors, x.schemas), { schema: ve, id: Se } = le._generate(h, Ee, O);
+              } else if (ue) {
+                const Ee = x.localize([...x.path, `${ae}.otherwise`], x.ancestors, x.schemas), { schema: ve, id: Se } = ue._generate(h, Ee, O);
                 A.push(ve), C.push(`${ae}.otherwise${Se ? `(${Se})` : ""}`);
                 break;
               }
             }
-            if (F.break && C.length > ee)
+            if (F.break && C.length > q)
               break;
           }
           const R = C.join(", ");
@@ -1746,8 +1746,8 @@ var mn = { exports: {} };
             continue;
           }
           const N = [a, ...l.ancestors];
-          for (const z of u.$_terms._exclusions)
-            if (z.$_match(C, l.localize(F, N, z), p, { presence: "ignore" })) {
+          for (const K of u.$_terms._exclusions)
+            if (K.$_match(C, l.localize(F, N, K), p, { presence: "ignore" })) {
               if (x.push(s("array.excludes", { pos: A, value: C }, l.localize(F))), p.abortEarly)
                 return x;
               R = !0, $.shift();
@@ -1757,11 +1757,11 @@ var mn = { exports: {} };
             continue;
           if (u.$_terms.ordered.length) {
             if ($.length) {
-              const z = $.shift(), Y = z.$_validate(C, l.localize(F, N, z), p);
+              const K = $.shift(), Y = K.$_validate(C, l.localize(F, N, K), p);
               if (Y.errors) {
                 if (x.push(...Y.errors), p.abortEarly)
                   return x;
-              } else if (z._flags.result === "strip")
+              } else if (K._flags.result === "strip")
                 i.fastSplice(a, A), --A, --O;
               else {
                 if (!u._flags.sparse && Y.value === void 0) {
@@ -1780,13 +1780,13 @@ var mn = { exports: {} };
             }
           }
           const W = [];
-          let ee = E.length;
-          for (let z = 0; z < ee; ++z) {
-            const Y = l.localize(F, N, E[z]);
+          let q = E.length;
+          for (let K = 0; K < q; ++K) {
+            const Y = l.localize(F, N, E[K]);
             Y.snapshot();
-            const le = E[z].$_validate(C, Y, p);
-            if (W[z] = le, !le.errors) {
-              if (Y.commit(), a[A] = le.value, D = !0, i.fastSplice(E, z), --z, --ee, !u._flags.sparse && le.value === void 0 && (x.push(s("array.sparse", { key: P, path: F, pos: A, value: void 0 }, l.localize(F))), p.abortEarly))
+            const ue = E[K].$_validate(C, Y, p);
+            if (W[K] = ue, !ue.errors) {
+              if (Y.commit(), a[A] = ue.value, D = !0, i.fastSplice(E, K), --K, --q, !u._flags.sparse && ue.value === void 0 && (x.push(s("array.sparse", { key: P, path: F, pos: A, value: void 0 }, l.localize(F))), p.abortEarly))
                 return x;
               break;
             }
@@ -1794,23 +1794,23 @@ var mn = { exports: {} };
           }
           if (D)
             continue;
-          const ue = p.stripUnknown && !!p.stripUnknown.arrays || !1;
-          ee = I.length;
-          for (const z of I) {
+          const le = p.stripUnknown && !!p.stripUnknown.arrays || !1;
+          q = I.length;
+          for (const K of I) {
             let Y;
-            const le = E.indexOf(z);
-            if (le !== -1)
-              Y = W[le];
+            const ue = E.indexOf(K);
+            if (ue !== -1)
+              Y = W[ue];
             else {
-              const ae = l.localize(F, N, z);
-              if (ae.snapshot(), Y = z.$_validate(C, ae, p), !Y.errors) {
-                ae.commit(), z._flags.result === "strip" ? (i.fastSplice(a, A), --A, --O) : u._flags.sparse || Y.value !== void 0 ? a[A] = Y.value : (x.push(s("array.sparse", { key: P, path: F, pos: A, value: void 0 }, l.localize(F))), R = !0), D = !0;
+              const ae = l.localize(F, N, K);
+              if (ae.snapshot(), Y = K.$_validate(C, ae, p), !Y.errors) {
+                ae.commit(), K._flags.result === "strip" ? (i.fastSplice(a, A), --A, --O) : u._flags.sparse || Y.value !== void 0 ? a[A] = Y.value : (x.push(s("array.sparse", { key: P, path: F, pos: A, value: void 0 }, l.localize(F))), R = !0), D = !0;
                 break;
               }
               ae.restore();
             }
-            if (ee === 1) {
-              if (ue) {
+            if (q === 1) {
+              if (le) {
                 i.fastSplice(a, A), --A, --O, D = !0;
                 break;
               }
@@ -1821,7 +1821,7 @@ var mn = { exports: {} };
             }
           }
           if (!R && (u.$_terms._inclusions.length || u.$_terms._requireds.length) && !D) {
-            if (ue) {
+            if (le) {
               i.fastSplice(a, A), --A, --O;
               continue;
             }
@@ -2809,7 +2809,7 @@ var mn = { exports: {} };
               C = D[0], R = C[A];
             }
             try {
-              const F = (W, ee) => (O || h.schema).$_createError(W, R, ee, h.state, l), N = await h.method(R, { schema: h.schema, linked: O, state: h.state, prefs: s, original: P, error: F, errorsArray: a.errorsArray, warn: (W, ee) => v.warnings.push((O || h.schema).$_createError(W, R, ee, h.state, l)), message: (W, ee) => (O || h.schema).$_createError("external", R, ee, h.state, l, { messages: W }) });
+              const F = (W, q) => (O || h.schema).$_createError(W, R, q, h.state, l), N = await h.method(R, { schema: h.schema, linked: O, state: h.state, prefs: s, original: P, error: F, errorsArray: a.errorsArray, warn: (W, q) => v.warnings.push((O || h.schema).$_createError(W, R, q, h.state, l)), message: (W, q) => (O || h.schema).$_createError("external", R, q, h.state, l, { messages: W }) });
               if (N === void 0 || N === R)
                 continue;
               if (N instanceof o.Report) {
@@ -3727,8 +3727,8 @@ var mn = { exports: {} };
         d.ipv4address = "(?:" + l + "\\.){3}" + l;
         const p = o + "{1,4}", v = "(?:" + p + ":" + p + "|" + d.ipv4address + ")", E = "(?:" + p + ":){6}" + v, $ = "::(?:" + p + ":){5}" + v, I = "(?:" + p + ")?::(?:" + p + ":){4}" + v, h = "(?:(?:" + p + ":){0,1}" + p + ")?::(?:" + p + ":){3}" + v, x = "(?:(?:" + p + ":){0,2}" + p + ")?::(?:" + p + ":){2}" + v, O = "(?:(?:" + p + ":){0,3}" + p + ")?::" + p + ":" + v, A = "(?:(?:" + p + ":){0,4}" + p + ")?::" + v, C = "(?:(?:" + p + ":){0,5}" + p + ")?::" + p, R = "(?:(?:" + p + ":){0,6}" + p + ")?::";
         d.ipv4Cidr = "(?:\\d|[1-2]\\d|3[0-2])", d.ipv6Cidr = "(?:0{0,2}\\d|0?[1-9]\\d|1[01]\\d|12[0-8])", d.ipv6address = "(?:" + E + "|" + $ + "|" + I + "|" + h + "|" + x + "|" + O + "|" + A + "|" + C + "|" + R + ")", d.ipvFuture = "v" + o + "+\\.[" + i + a + ":]+", d.scheme = "[a-zA-Z][a-zA-Z\\d+-\\.]*", d.schemeRegex = new RegExp(d.scheme);
-        const D = "[" + i + n + a + ":]*", P = "[" + i + n + a + "]{1,255}", F = "(?:\\[(?:" + d.ipv6address + "|" + d.ipvFuture + ")\\]|" + d.ipv4address + "|" + P + ")", N = "(?:" + D + "@)?" + F + "(?::\\d*)?", W = "(?:" + D + "@)?(" + F + ")(?::\\d*)?", ee = s + "*", ue = s + "+", z = "(?:\\/" + ee + ")*", Y = "\\/(?:" + ue + z + ")?", le = ue + z, ae = "[" + i + n + a + "@]+" + z, Ee = "(?:\\/\\/\\/" + ee + z + ")";
-        return d.hierPart = "(?:(?:\\/\\/" + N + z + ")|" + Y + "|" + le + "|" + Ee + ")", d.hierPartCapture = "(?:(?:\\/\\/" + W + z + ")|" + Y + "|" + le + ")", d.relativeRef = "(?:(?:\\/\\/" + N + z + ")|" + Y + "|" + ae + "|)", d.relativeRefCapture = "(?:(?:\\/\\/" + W + z + ")|" + Y + "|" + ae + "|)", d.query = "[" + u + "\\/\\?]*(?=#|$)", d.queryWithSquareBrackets = "[" + u + "\\[\\]\\/\\?]*(?=#|$)", d.fragment = "[" + u + "\\/\\?]*", d;
+        const D = "[" + i + n + a + ":]*", P = "[" + i + n + a + "]{1,255}", F = "(?:\\[(?:" + d.ipv6address + "|" + d.ipvFuture + ")\\]|" + d.ipv4address + "|" + P + ")", N = "(?:" + D + "@)?" + F + "(?::\\d*)?", W = "(?:" + D + "@)?(" + F + ")(?::\\d*)?", q = s + "*", le = s + "+", K = "(?:\\/" + q + ")*", Y = "\\/(?:" + le + K + ")?", ue = le + K, ae = "[" + i + n + a + "@]+" + K, Ee = "(?:\\/\\/\\/" + q + K + ")";
+        return d.hierPart = "(?:(?:\\/\\/" + N + K + ")|" + Y + "|" + ue + "|" + Ee + ")", d.hierPartCapture = "(?:(?:\\/\\/" + W + K + ")|" + Y + "|" + ue + ")", d.relativeRef = "(?:(?:\\/\\/" + N + K + ")|" + Y + "|" + ae + "|)", d.relativeRefCapture = "(?:(?:\\/\\/" + W + K + ")|" + Y + "|" + ae + "|)", d.query = "[" + u + "\\/\\?]*(?=#|$)", d.queryWithSquareBrackets = "[" + u + "\\[\\]\\/\\?]*(?=#|$)", d.fragment = "[" + u + "\\/\\?]*", d;
       } };
       f.rfc3986 = f.generate(), g.ip = { v4Cidr: f.rfc3986.ipv4Cidr, v6Cidr: f.rfc3986.ipv6Cidr, ipv4: f.rfc3986.ipv4address, ipv6: f.rfc3986.ipv6address, ipvfuture: f.rfc3986.ipvFuture }, f.createRegex = function(d) {
         const t = f.rfc3986, o = "(?:\\?" + (d.allowQuerySquareBrackets ? t.queryWithSquareBrackets : t.query) + ")?(?:#" + t.fragment + ")?", i = d.domain ? t.relativeRefCapture : t.relativeRef;
@@ -4851,7 +4851,7 @@ ie.prototype = /** @lends Sortable.prototype */
     var y = this.el, w = b.target, m, g, e, r = this.options, c = r.group, f = ie.active, d = rr === c, t = r.sort, o = Ye || f, i, a = this, n = !1;
     if (kr)
       return;
-    function u(W, ee) {
+    function u(W, q) {
       qe(W, a, vt({
         evt: b,
         isOwner: d,
@@ -4863,11 +4863,11 @@ ie.prototype = /** @lends Sortable.prototype */
         fromSortable: o,
         target: w,
         completed: l,
-        onMove: function(z, Y) {
-          return or(Fe, y, U, m, z, Me(z), b, Y);
+        onMove: function(K, Y) {
+          return or(Fe, y, U, m, K, Me(K), b, Y);
         },
         changed: p
-      }, ee));
+      }, q));
     }
     function s() {
       u("dragOverAnimationCapture"), a.captureAnimationState(), a !== o && o.captureAnimationState();
@@ -6263,20 +6263,20 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
                   }
                   var F = c(R), N = String(this), W = typeof D == "function";
                   W || (D = String(D));
-                  var ee = F.global;
-                  if (ee) {
-                    var ue = F.unicode;
+                  var q = F.global;
+                  if (q) {
+                    var le = F.unicode;
                     F.lastIndex = 0;
                   }
-                  for (var z = []; ; ) {
+                  for (var K = []; ; ) {
                     var Y = a(F, N);
-                    if (Y === null || (z.push(Y), !ee))
+                    if (Y === null || (K.push(Y), !q))
                       break;
-                    var le = String(Y[0]);
-                    le === "" && (F.lastIndex = i(N, d(F.lastIndex), ue));
+                    var ue = String(Y[0]);
+                    ue === "" && (F.lastIndex = i(N, d(F.lastIndex), le));
                   }
-                  for (var ae = "", Ee = 0, ve = 0; ve < z.length; ve++) {
-                    Y = z[ve];
+                  for (var ae = "", Ee = 0, ve = 0; ve < K.length; ve++) {
+                    Y = K[ve];
                     for (var Se = String(Y[0]), Pe = n(u(t(Y.index), N.length), 0), Le = [], rt = 1; rt < Y.length; rt++)
                       Le.push(v(Y[rt]));
                     var nt = Y.groups;
@@ -6292,10 +6292,10 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
                 }
               ];
               function C(R, D, P, F, N, W) {
-                var ee = P + R.length, ue = F.length, z = p;
-                return N !== void 0 && (N = f(N), z = l), $.call(W, z, function(Y, le) {
+                var q = P + R.length, le = F.length, K = p;
+                return N !== void 0 && (N = f(N), K = l), $.call(W, K, function(Y, ue) {
                   var ae;
-                  switch (le.charAt(0)) {
+                  switch (ue.charAt(0)) {
                     case "$":
                       return "$";
                     case "&":
@@ -6303,17 +6303,17 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
                     case "`":
                       return D.slice(0, P);
                     case "'":
-                      return D.slice(ee);
+                      return D.slice(q);
                     case "<":
-                      ae = N[le.slice(1, -1)];
+                      ae = N[ue.slice(1, -1)];
                       break;
                     default:
-                      var Ee = +le;
+                      var Ee = +ue;
                       if (Ee === 0)
                         return Y;
-                      if (Ee > ue) {
+                      if (Ee > le) {
                         var ve = s(Ee / 10);
-                        return ve === 0 ? Y : ve <= ue ? F[ve - 1] === void 0 ? le.charAt(1) : F[ve - 1] + le.charAt(1) : Y;
+                        return ve === 0 ? Y : ve <= le ? F[ve - 1] === void 0 ? ue.charAt(1) : F[ve - 1] + ue.charAt(1) : Y;
                       }
                       ae = F[Ee - 1];
                   }
@@ -6592,10 +6592,10 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
             m.exports = function(x, O, A, C, R, D, P) {
               c(A, O, C);
               var F = function(ve) {
-                if (ve === R && z)
-                  return z;
-                if (!p && ve in ee)
-                  return ee[ve];
+                if (ve === R && K)
+                  return K;
+                if (!p && ve in q)
+                  return q[ve];
                 switch (ve) {
                   case E:
                     return function() {
@@ -6613,17 +6613,17 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
                 return function() {
                   return new A(this);
                 };
-              }, N = O + " Iterator", W = !1, ee = x.prototype, ue = ee[v] || ee["@@iterator"] || R && ee[R], z = !p && ue || F(R), Y = O == "Array" && ee.entries || ue, le, ae, Ee;
-              if (Y && (le = f(Y.call(new x())), l !== Object.prototype && le.next && (!n && f(le) !== l && (d ? d(le, l) : typeof le[v] != "function" && o(le, v, h)), t(le, N, !0, !0), n && (u[N] = h))), R == $ && ue && ue.name !== $ && (W = !0, z = function() {
-                return ue.call(this);
-              }), (!n || P) && ee[v] !== z && o(ee, v, z), u[O] = z, R)
+              }, N = O + " Iterator", W = !1, q = x.prototype, le = q[v] || q["@@iterator"] || R && q[R], K = !p && le || F(R), Y = O == "Array" && q.entries || le, ue, ae, Ee;
+              if (Y && (ue = f(Y.call(new x())), l !== Object.prototype && ue.next && (!n && f(ue) !== l && (d ? d(ue, l) : typeof ue[v] != "function" && o(ue, v, h)), t(ue, N, !0, !0), n && (u[N] = h))), R == $ && le && le.name !== $ && (W = !0, K = function() {
+                return le.call(this);
+              }), (!n || P) && q[v] !== K && o(q, v, K), u[O] = K, R)
                 if (ae = {
                   values: F($),
-                  keys: D ? z : F(E),
+                  keys: D ? K : F(E),
                   entries: F(I)
                 }, P)
                   for (Ee in ae)
-                    (p || W || !(Ee in ee)) && i(ee, Ee, ae[Ee]);
+                    (p || W || !(Ee in q)) && i(q, Ee, ae[Ee]);
                 else
                   r({ target: O, proto: !0, forced: p || W }, ae);
               return ae;
@@ -6944,71 +6944,71 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
         a4d3: (
           /***/
           function(m, g, e) {
-            var r = e("23e7"), c = e("da84"), f = e("d066"), d = e("c430"), t = e("83ab"), o = e("4930"), i = e("fdbf"), a = e("d039"), n = e("5135"), u = e("e8b5"), s = e("861d"), l = e("825a"), p = e("7b0b"), v = e("fc6a"), E = e("c04e"), $ = e("5c6c"), I = e("7c73"), h = e("df75"), x = e("241c"), O = e("057f"), A = e("7418"), C = e("06cf"), R = e("9bf2"), D = e("d1e7"), P = e("9112"), F = e("6eeb"), N = e("5692"), W = e("f772"), ee = e("d012"), ue = e("90e3"), z = e("b622"), Y = e("e538"), le = e("746f"), ae = e("d44e"), Ee = e("69f3"), ve = e("b727").forEach, Se = W("hidden"), Pe = "Symbol", Le = "prototype", rt = z("toPrimitive"), nt = Ee.set, X = Ee.getterFor(Pe), H = Object[Le], fe = c.Symbol, Oe = f("JSON", "stringify"), Be = C.f, ke = R.f, te = O.f, ye = D.f, be = N("symbols"), ce = N("op-symbols"), Z = N("string-to-symbol-registry"), Te = N("symbol-to-string-registry"), We = N("wks"), $e = c.QObject, B = !$e || !$e[Le] || !$e[Le].findChild, He = t && a(function() {
+            var r = e("23e7"), c = e("da84"), f = e("d066"), d = e("c430"), t = e("83ab"), o = e("4930"), i = e("fdbf"), a = e("d039"), n = e("5135"), u = e("e8b5"), s = e("861d"), l = e("825a"), p = e("7b0b"), v = e("fc6a"), E = e("c04e"), $ = e("5c6c"), I = e("7c73"), h = e("df75"), x = e("241c"), O = e("057f"), A = e("7418"), C = e("06cf"), R = e("9bf2"), D = e("d1e7"), P = e("9112"), F = e("6eeb"), N = e("5692"), W = e("f772"), q = e("d012"), le = e("90e3"), K = e("b622"), Y = e("e538"), ue = e("746f"), ae = e("d44e"), Ee = e("69f3"), ve = e("b727").forEach, Se = W("hidden"), Pe = "Symbol", Le = "prototype", rt = K("toPrimitive"), nt = Ee.set, X = Ee.getterFor(Pe), H = Object[Le], fe = c.Symbol, Oe = f("JSON", "stringify"), Be = C.f, ke = R.f, te = O.f, ye = D.f, be = N("symbols"), ce = N("op-symbols"), Z = N("string-to-symbol-registry"), Te = N("symbol-to-string-registry"), We = N("wks"), $e = c.QObject, B = !$e || !$e[Le] || !$e[Le].findChild, He = t && a(function() {
               return I(ke({}, "a", {
                 get: function() {
                   return ke(this, "a", { value: 7 }).a;
                 }
               })).a != 7;
-            }) ? function(_, k, K) {
+            }) ? function(_, k, z) {
               var Q = Be(H, k);
-              Q && delete H[k], ke(_, k, K), Q && _ !== H && ke(H, k, Q);
+              Q && delete H[k], ke(_, k, z), Q && _ !== H && ke(H, k, Q);
             } : ke, Xe = function(_, k) {
-              var K = be[_] = I(fe[Le]);
-              return nt(K, {
+              var z = be[_] = I(fe[Le]);
+              return nt(z, {
                 type: Pe,
                 tag: _,
                 description: k
-              }), t || (K.description = k), K;
+              }), t || (z.description = k), z;
             }, j = i ? function(_) {
               return typeof _ == "symbol";
             } : function(_) {
               return Object(_) instanceof fe;
-            }, T = function(k, K, Q) {
-              k === H && T(ce, K, Q), l(k);
-              var oe = E(K, !0);
+            }, T = function(k, z, Q) {
+              k === H && T(ce, z, Q), l(k);
+              var oe = E(z, !0);
               return l(Q), n(be, oe) ? (Q.enumerable ? (n(k, Se) && k[Se][oe] && (k[Se][oe] = !1), Q = I(Q, { enumerable: $(0, !1) })) : (n(k, Se) || ke(k, Se, $(1, {})), k[Se][oe] = !0), He(k, oe, Q)) : ke(k, oe, Q);
-            }, M = function(k, K) {
+            }, M = function(k, z) {
               l(k);
-              var Q = v(K), oe = h(Q).concat(ge(Q));
+              var Q = v(z), oe = h(Q).concat(ge(Q));
               return ve(oe, function(Ae) {
                 (!t || G.call(Q, Ae)) && T(k, Ae, Q[Ae]);
               }), k;
-            }, L = function(k, K) {
-              return K === void 0 ? I(k) : M(I(k), K);
+            }, L = function(k, z) {
+              return z === void 0 ? I(k) : M(I(k), z);
             }, G = function(k) {
-              var K = E(k, !0), Q = ye.call(this, K);
-              return this === H && n(be, K) && !n(ce, K) ? !1 : Q || !n(this, K) || !n(be, K) || n(this, Se) && this[Se][K] ? Q : !0;
-            }, re = function(k, K) {
-              var Q = v(k), oe = E(K, !0);
+              var z = E(k, !0), Q = ye.call(this, z);
+              return this === H && n(be, z) && !n(ce, z) ? !1 : Q || !n(this, z) || !n(be, z) || n(this, Se) && this[Se][z] ? Q : !0;
+            }, re = function(k, z) {
+              var Q = v(k), oe = E(z, !0);
               if (!(Q === H && n(be, oe) && !n(ce, oe))) {
                 var Ae = Be(Q, oe);
                 return Ae && n(be, oe) && !(n(Q, Se) && Q[Se][oe]) && (Ae.enumerable = !0), Ae;
               }
             }, se = function(k) {
-              var K = te(v(k)), Q = [];
-              return ve(K, function(oe) {
-                !n(be, oe) && !n(ee, oe) && Q.push(oe);
+              var z = te(v(k)), Q = [];
+              return ve(z, function(oe) {
+                !n(be, oe) && !n(q, oe) && Q.push(oe);
               }), Q;
             }, ge = function(k) {
-              var K = k === H, Q = te(K ? ce : v(k)), oe = [];
+              var z = k === H, Q = te(z ? ce : v(k)), oe = [];
               return ve(Q, function(Ae) {
-                n(be, Ae) && (!K || n(H, Ae)) && oe.push(be[Ae]);
+                n(be, Ae) && (!z || n(H, Ae)) && oe.push(be[Ae]);
               }), oe;
             };
             if (o || (fe = function() {
               if (this instanceof fe)
                 throw TypeError("Symbol is not a constructor");
-              var k = !arguments.length || arguments[0] === void 0 ? void 0 : String(arguments[0]), K = ue(k), Q = function(oe) {
-                this === H && Q.call(ce, oe), n(this, Se) && n(this[Se], K) && (this[Se][K] = !1), He(this, K, $(1, oe));
+              var k = !arguments.length || arguments[0] === void 0 ? void 0 : String(arguments[0]), z = le(k), Q = function(oe) {
+                this === H && Q.call(ce, oe), n(this, Se) && n(this[Se], z) && (this[Se][z] = !1), He(this, z, $(1, oe));
               };
-              return t && B && He(H, K, { configurable: !0, set: Q }), Xe(K, k);
+              return t && B && He(H, z, { configurable: !0, set: Q }), Xe(z, k);
             }, F(fe[Le], "toString", function() {
               return X(this).tag;
             }), F(fe, "withoutSetter", function(_) {
-              return Xe(ue(_), _);
+              return Xe(le(_), _);
             }), D.f = G, R.f = T, C.f = re, x.f = O.f = se, A.f = ge, Y.f = function(_) {
-              return Xe(z(_), _);
+              return Xe(K(_), _);
             }, t && (ke(fe[Le], "description", {
               configurable: !0,
               get: function() {
@@ -7017,7 +7017,7 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
             }), d || F(H, "propertyIsEnumerable", G, { unsafe: !0 }))), r({ global: !0, wrap: !0, forced: !o, sham: !o }, {
               Symbol: fe
             }), ve(h(We), function(_) {
-              le(_);
+              ue(_);
             }), r({ target: Pe, stat: !0, forced: !o }, {
               // `Symbol.for` method
               // https://tc39.github.io/ecma262/#sec-symbol.for
@@ -7025,8 +7025,8 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
                 var k = String(_);
                 if (n(Z, k))
                   return Z[k];
-                var K = fe(k);
-                return Z[k] = K, Te[K] = k, K;
+                var z = fe(k);
+                return Z[k] = z, Te[z] = k, z;
               },
               // `Symbol.keyFor` method
               // https://tc39.github.io/ecma262/#sec-symbol.keyfor
@@ -7075,18 +7075,18 @@ const Oa = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
               });
               r({ target: "JSON", stat: !0, forced: Re }, {
                 // eslint-disable-next-line no-unused-vars
-                stringify: function(k, K, Q) {
+                stringify: function(k, z, Q) {
                   for (var oe = [k], Ae = 1, pt; arguments.length > Ae; )
                     oe.push(arguments[Ae++]);
-                  if (pt = K, !(!s(K) && k === void 0 || j(k)))
-                    return u(K) || (K = function(Ot, Dt) {
+                  if (pt = z, !(!s(z) && k === void 0 || j(k)))
+                    return u(z) || (z = function(Ot, Dt) {
                       if (typeof pt == "function" && (Dt = pt.call(this, Ot, Dt)), !j(Dt))
                         return Dt;
-                    }), oe[1] = K, Oe.apply(null, oe);
+                    }), oe[1] = z, Oe.apply(null, oe);
                 }
               });
             }
-            fe[Le][rt] || P(fe[Le], rt, fe[Le].valueOf), ae(fe, Pe), ee[Se] = !0;
+            fe[Le][rt] || P(fe[Le], rt, fe[Le].valueOf), ae(fe, Pe), q[Se] = !0;
           }
         ),
         /***/
@@ -7996,20 +7996,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
               return j;
             }).map(function(j) {
               return "on".concat(j);
-            }), ee = {
+            }), q = {
               manage: N,
               manageAndEmit: P,
               emit: F
             };
-            function ue(j) {
+            function le(j) {
               return W.indexOf(j) !== -1;
             }
             e("caad"), e("2ca0");
-            var z = ["a", "abbr", "address", "area", "article", "aside", "audio", "b", "base", "bdi", "bdo", "blockquote", "body", "br", "button", "canvas", "caption", "cite", "code", "col", "colgroup", "data", "datalist", "dd", "del", "details", "dfn", "dialog", "div", "dl", "dt", "em", "embed", "fieldset", "figcaption", "figure", "footer", "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hgroup", "hr", "html", "i", "iframe", "img", "input", "ins", "kbd", "label", "legend", "li", "link", "main", "map", "mark", "math", "menu", "menuitem", "meta", "meter", "nav", "noscript", "object", "ol", "optgroup", "option", "output", "p", "param", "picture", "pre", "progress", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp", "script", "section", "select", "slot", "small", "source", "span", "strong", "style", "sub", "summary", "sup", "svg", "table", "tbody", "td", "template", "textarea", "tfoot", "th", "thead", "time", "title", "tr", "track", "u", "ul", "var", "video", "wbr"];
+            var K = ["a", "abbr", "address", "area", "article", "aside", "audio", "b", "base", "bdi", "bdo", "blockquote", "body", "br", "button", "canvas", "caption", "cite", "code", "col", "colgroup", "data", "datalist", "dd", "del", "details", "dfn", "dialog", "div", "dl", "dt", "em", "embed", "fieldset", "figcaption", "figure", "footer", "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hgroup", "hr", "html", "i", "iframe", "img", "input", "ins", "kbd", "label", "legend", "li", "link", "main", "map", "mark", "math", "menu", "menuitem", "meta", "meter", "nav", "noscript", "object", "ol", "optgroup", "option", "output", "p", "param", "picture", "pre", "progress", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp", "script", "section", "select", "slot", "small", "source", "span", "strong", "style", "sub", "summary", "sup", "svg", "table", "tbody", "td", "template", "textarea", "tfoot", "th", "thead", "time", "title", "tr", "track", "u", "ul", "var", "video", "wbr"];
             function Y(j) {
-              return z.includes(j);
+              return K.includes(j);
             }
-            function le(j) {
+            function ue(j) {
               return ["transition-group", "TransitionGroup"].includes(j);
             }
             function ae(j) {
@@ -8032,7 +8032,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
               var T = j.$attrs, M = j.callBackBuilder, L = Ee(Pe(T));
               Object.entries(M).forEach(function(re) {
                 var se = l(re, 2), ge = se[0], Re = se[1];
-                ee[ge].forEach(function(_) {
+                q[ge].forEach(function(_) {
                   L["on".concat(_)] = Re(_);
                 });
               });
@@ -8050,7 +8050,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 return [D(L), G];
               }).filter(function(T) {
                 var M = l(T, 2), L = M[0];
-                return M[1], !ue(L);
+                return M[1], !le(L);
               });
             }
             e("c740");
@@ -8116,8 +8116,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     return Re.index;
                   if (re === 0)
                     return 0;
-                  var _ = X(G[0]), k = $(se).findIndex(function(K) {
-                    return K === _;
+                  var _ = X(G[0]), k = $(se).findIndex(function(z) {
+                    return z === _;
                   });
                   return M < k ? 0 : re;
                 }
@@ -8133,17 +8133,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
               return M ? M() : [];
             }
             function te(j) {
-              var T = j.$slots, M = j.realList, L = j.getKey, G = M || [], re = ["header", "footer"].map(function(K) {
-                return ke(T, K);
+              var T = j.$slots, M = j.realList, L = j.getKey, G = M || [], re = ["header", "footer"].map(function(z) {
+                return ke(T, z);
               }), se = l(re, 2), ge = se[0], Re = se[1], _ = T.item;
               if (!_)
                 throw new Error("draggable element must have an item slot");
-              var k = G.flatMap(function(K, Q) {
+              var k = G.flatMap(function(z, Q) {
                 return _({
-                  element: K,
+                  element: z,
                   index: Q
                 }).map(function(oe) {
-                  return oe.key = L(K), oe.props = o(o({}, oe.props || {}), {}, {
+                  return oe.key = L(z), oe.props = o(o({}, oe.props || {}), {}, {
                     "data-draggable": !0
                   }), oe;
                 });
@@ -8157,7 +8157,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
               };
             }
             function ye(j) {
-              var T = le(j), M = !Y(j) && !T;
+              var T = ue(j), M = !Y(j) && !T;
               return {
                 transition: T,
                 externalComponent: M,
@@ -8229,7 +8229,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 required: !1,
                 default: null
               }
-            }, B = ["update:modelValue", "change"].concat($([].concat($(ee.manageAndEmit), $(ee.emit)).map(function(j) {
+            }, B = ["update:modelValue", "change"].concat($([].concat($(q.manageAndEmit), $(q.emit)).map(function(j) {
               return j.toLowerCase();
             }))), He = Object(Be.defineComponent)({
               name: "draggable",
@@ -8563,7 +8563,7 @@ let Mr;
 function yt(S) {
   Mr || (Mr = Ra()), Mr.add(S);
 }
-const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { class: "text-14px" }, ja = { class: "text-14px" }, Pa = { class: "main-content" }, Fa = { class: "value" }, Ma = { class: "w-24px h24px" }, Na = { class: "confirm-delete" }, La = /* @__PURE__ */ xr({
+const Ca = { class: "card drag-handle" }, Da = { class: "card-title" }, Ta = { class: "text-14px" }, ja = { class: "text-14px" }, Pa = { class: "text-14px" }, Fa = { class: "main-content" }, Ma = { class: "value" }, Na = { class: "w-24px h24px" }, La = { class: "confirm-delete" }, ka = /* @__PURE__ */ xr({
   __name: "card",
   props: {
     layoutOptions: { default: {} },
@@ -8628,69 +8628,64 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
       }
     }
     return (n, u) => {
-      var R, D, P, F, N, W, ee, ue, z;
-      const s = De("v-image"), l = De("display-formatted-value"), p = De("v-icon"), v = De("v-button"), E = De("v-list"), $ = De("v-menu"), I = De("v-card-title"), h = De("v-card-text"), x = De("v-card-actions"), O = De("v-card"), A = De("v-dialog"), C = Br("tooltip");
+      var C, R, D, P, F, N, W, q, le;
+      const s = De("v-image"), l = De("v-icon"), p = De("v-button"), v = De("v-list"), E = De("v-menu"), $ = De("v-card-title"), I = De("v-card-text"), h = De("v-card-actions"), x = De("v-card"), O = De("v-dialog"), A = Br("tooltip");
       return Ce(), ze("section", Ca, [
         ne("header", null, [
-          (D = n.item) != null && D[(R = n.layoutOptions) == null ? void 0 : R.imageSource] ? (Ce(), ht(s, {
+          (R = n.item) != null && R[(C = n.layoutOptions) == null ? void 0 : C.imageSource] ? (Ce(), ht(s, {
             key: 0,
-            class: Rt(["render-thumbnail", { "card-image-fill": (P = n.layoutOptions) == null ? void 0 : P.crop }]),
-            src: V(br)((N = n.item) == null ? void 0 : N[(F = n.layoutOptions) == null ? void 0 : F.imageSource])
+            class: Rt(["render-thumbnail", { "card-image-fill": (D = n.layoutOptions) == null ? void 0 : D.crop }]),
+            src: V(br)((F = n.item) == null ? void 0 : F[(P = n.layoutOptions) == null ? void 0 : P.imageSource])
           }, null, 8, ["class", "src"])) : dt("", !0),
-          q(l, {
-            type: "text",
-            value: (ee = n.item) == null ? void 0 : ee[(W = n.layoutOptions) == null ? void 0 : W.titleField],
-            format: "",
-            class: "card-title"
-          }, null, 8, ["value"]),
-          f.value ? (Ce(), ht($, {
+          ne("span", Da, me((W = n.item) == null ? void 0 : W[(N = n.layoutOptions) == null ? void 0 : N.titleField]), 1),
+          f.value ? (Ce(), ht(E, {
             key: 1,
             "show-arrow": ""
           }, {
-            activator: me(({ toggle: Y, active: le }) => [
-              Zt((Ce(), ht(v, {
-                class: Rt(["button-edit-item", { active: le }]),
-                onClick: tr(Y, ["stop"]),
+            activator: he(({ toggle: K, active: Y }) => [
+              Zt((Ce(), ht(p, {
+                class: Rt(["button-edit-item", { active: Y }]),
+                onClick: tr(K, ["stop"]),
                 icon: ""
               }, {
-                default: me(() => [
-                  q(p, { name: "edit" })
+                default: he(() => [
+                  ee(l, { name: "edit" })
                 ]),
                 _: 2
               }, 1032, ["class", "onClick"])), [
                 [
-                  C,
+                  A,
                   "Edit Item",
                   void 0,
                   { bottom: !0 }
                 ]
               ])
             ]),
-            default: me(() => [
-              q(E, {
+            default: he(() => [
+              ee(v, {
                 onClick: tr(d, ["stop"]),
                 class: "list-menu-item"
               }, {
-                default: me(() => [
-                  ne("span", Da, he(V(w)("kanboard.card.edit_item")), 1)
+                default: he(() => [
+                  ne("span", Ta, me(V(w)("kanboard.card.edit_item")), 1)
                 ]),
                 _: 1
               }),
-              q(E, {
+              ee(v, {
                 onClick: tr(t, ["stop"]),
                 class: "list-menu-item"
               }, {
-                default: me(() => [
-                  ne("span", Ta, he(V(w)("kanboard.card.changelog")), 1)
+                default: he(() => [
+                  ne("span", ja, me(V(w)("kanboard.card.changelog")), 1)
                 ]),
                 _: 1
               }),
-              q(E, {
+              ee(v, {
                 onClick: tr(o, ["stop"]),
                 class: "list-menu-item"
               }, {
-                default: me(() => [
-                  ne("span", ja, he(V(w)("kanboard.card.delete_item")), 1)
+                default: he(() => [
+                  ne("span", Pa, me(V(w)("kanboard.card.delete_item")), 1)
                 ]),
                 _: 1
               })
@@ -8699,57 +8694,57 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
           })) : dt("", !0)
         ]),
         ne("main", null, [
-          ne("div", Pa, [
-            ne("span", Fa, he((z = n.item) == null ? void 0 : z[(ue = n.layoutOptions) == null ? void 0 : ue.textField]), 1)
+          ne("div", Fa, [
+            ne("span", Ma, me((le = n.item) == null ? void 0 : le[(q = n.layoutOptions) == null ? void 0 : q.textField]), 1)
           ]),
-          ne("div", Ma, [
+          ne("div", Na, [
             e.value ? (Ce(), ht(s, {
               key: 0,
               class: "render-avatar-user-created",
               src: V(br)(e.value)
-            }, null, 8, ["src"])) : (Ce(), ht(p, {
+            }, null, 8, ["src"])) : (Ce(), ht(l, {
               key: 1,
               name: "person"
             }))
           ])
         ]),
-        q(A, {
+        ee(O, {
           "model-value": c.value,
-          onEsc: u[2] || (u[2] = (Y) => i())
+          onEsc: u[2] || (u[2] = (K) => i())
         }, {
-          default: me(() => [
-            ne("div", Na, [
-              q(O, null, {
-                default: me(() => [
-                  q(I, null, {
-                    default: me(() => [
-                      tt(he(V(w)("kanboard.popup_confirm.title")), 1)
+          default: he(() => [
+            ne("div", La, [
+              ee(x, null, {
+                default: he(() => [
+                  ee($, null, {
+                    default: he(() => [
+                      tt(me(V(w)("kanboard.popup_confirm.title")), 1)
                     ]),
                     _: 1
                   }),
-                  q(h, null, {
-                    default: me(() => [
-                      tt(he(V(w)("kanboard.popup_confirm.text")), 1)
+                  ee(I, null, {
+                    default: he(() => [
+                      tt(me(V(w)("kanboard.popup_confirm.text")), 1)
                     ]),
                     _: 1
                   }),
-                  q(x, null, {
-                    default: me(() => [
-                      q(v, {
+                  ee(h, null, {
+                    default: he(() => [
+                      ee(p, {
                         secondary: "",
-                        onClick: u[0] || (u[0] = (Y) => i())
+                        onClick: u[0] || (u[0] = (K) => i())
                       }, {
-                        default: me(() => [
-                          tt(he(V(w)("kanboard.button.cancel")), 1)
+                        default: he(() => [
+                          tt(me(V(w)("kanboard.button.cancel")), 1)
                         ]),
                         _: 1
                       }),
-                      q(v, {
+                      ee(p, {
                         class: "button-confirm-delete",
-                        onClick: u[1] || (u[1] = (Y) => a(n.item))
+                        onClick: u[1] || (u[1] = (K) => a(n.item))
                       }, {
-                        default: me(() => [
-                          tt(he(V(w)("kanboard.button.delete")), 1)
+                        default: he(() => [
+                          tt(me(V(w)("kanboard.button.delete")), 1)
                         ]),
                         _: 1
                       })
@@ -8771,7 +8766,7 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
   for (const [w, m] of b)
     y[w] = m;
   return y;
-}, ka = /* @__PURE__ */ Er(La, [["__scopeId", "data-v-db33df6d"]]), _a = { class: "group" }, Ua = { class: "w-55% flex gap-5px items-center" }, Ga = { key: 0 }, Ba = { class: "flex relative" }, Va = { class: "text-14px ml-5px" }, Ka = { class: "text-14px ml-5px" }, za = { class: "overflow-y-auto" }, Wa = /* @__PURE__ */ xr({
+}, _a = /* @__PURE__ */ Er(ka, [["__scopeId", "data-v-3a6f9d1d"]]), Ua = { class: "group" }, Ga = { class: "w-55% flex gap-5px items-center" }, Ba = { key: 0 }, Va = { class: "flex relative" }, Ka = { class: "text-14px ml-5px" }, za = { class: "text-14px ml-5px" }, Wa = { class: "overflow-y-auto" }, Ha = /* @__PURE__ */ xr({
   __name: "group",
   props: {
     layoutOptions: { default: null },
@@ -8840,7 +8835,7 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
       }
     );
     async function h(R, D) {
-      var W, ee, ue, z, Y, le;
+      var W, q, le, K, Y, ue;
       const P = (W = g.value) == null ? void 0 : W.field;
       let F, N;
       if (R.added) {
@@ -8848,14 +8843,14 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
           [P]: ae,
           [r.value.field]: e.value
         }, ve = await a.patch(`items/${d.value}`, [Ee]);
-        F = ae, N = (ee = p.value[R.added.newIndex - 1]) == null ? void 0 : ee[P];
+        F = ae, N = (q = p.value[R.added.newIndex - 1]) == null ? void 0 : q[P];
         const Se = p.value.findIndex((Pe) => ve.data.data.some((Le) => Le.id === Pe.id));
         Se !== -1 && p.value.splice(Se, 1, { ...ve.data.data[0] });
       }
       if (R.moved) {
         const ae = Object.assign({}, p.value);
-        F = (ue = R.moved.element) == null ? void 0 : ue[P], N = (z = ae[R.moved.oldIndex]) == null ? void 0 : z[P];
-        const Ee = (Y = ae[R.moved.newIndex + 1]) == null ? void 0 : Y[P], ve = (le = ae[R.moved.oldIndex + 1]) == null ? void 0 : le[P];
+        F = (le = R.moved.element) == null ? void 0 : le[P], N = (K = ae[R.moved.oldIndex]) == null ? void 0 : K[P];
+        const Ee = (Y = ae[R.moved.newIndex + 1]) == null ? void 0 : Y[P], ve = (ue = ae[R.moved.oldIndex + 1]) == null ? void 0 : ue[P];
         N = R.moved.oldIndex - R.moved.newIndex > 1 ? Ee : N, N = R.moved.newIndex - R.moved.oldIndex > 1 ? ve : N;
       }
       if (F !== void 0 && N !== void 0) {
@@ -8888,79 +8883,79 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
       w("deleteGroup");
     }
     return (R, D) => {
-      var ue;
-      const P = De("v-icon"), F = De("v-button"), N = De("v-list"), W = De("v-menu"), ee = Br("tooltip");
-      return Ce(), ze("section", _a, [
+      var le;
+      const P = De("v-icon"), F = De("v-button"), N = De("v-list"), W = De("v-menu"), q = Br("tooltip");
+      return Ce(), ze("section", Ua, [
         ne("header", null, [
-          ne("div", Ua, [
-            (ue = V(o)) != null && ue.showIndex ? (Ce(), ze("span", Ga, he(R.groupIndex + 1) + " -", 1)) : dt("", !0),
+          ne("div", Ga, [
+            (le = V(o)) != null && le.showIndex ? (Ce(), ze("span", Ba, me(R.groupIndex + 1) + " -", 1)) : dt("", !0),
             ne("div", {
               class: "capitalize",
-              onClick: D[0] || (D[0] = (z) => m.value = !0)
-            }, he(R.groupTitle), 1)
+              onClick: D[0] || (D[0] = (K) => m.value = !0)
+            }, me(R.groupTitle), 1)
           ]),
-          ne("div", Ba, [
+          ne("div", Va, [
             Zt((Ce(), ht(F, {
               class: "button-header",
               onClick: x,
               icon: ""
             }, {
-              default: me(() => [
-                q(P, { name: "add" })
+              default: he(() => [
+                ee(P, { name: "add" })
               ]),
               _: 1
             })), [
               [
-                ee,
+                q,
                 V(i)("kanboard.card.create_item"),
                 void 0,
                 { bottom: !0 }
               ]
             ]),
-            q(W, { "show-arrow": "" }, {
-              activator: me(({ toggle: z, active: Y }) => [
+            ee(W, { "show-arrow": "" }, {
+              activator: he(({ toggle: K, active: Y }) => [
                 Zt((Ce(), ht(F, {
                   class: Rt(["button-header", { active: Y }]),
-                  onClick: z,
+                  onClick: K,
                   icon: ""
                 }, {
-                  default: me(() => [
-                    q(P, { name: "more_vert" })
+                  default: he(() => [
+                    ee(P, { name: "more_vert" })
                   ]),
                   _: 2
                 }, 1032, ["class", "onClick"])), [
                   [
-                    ee,
+                    q,
                     V(i)("kanboard.group.edit_group"),
                     void 0,
                     { bottom: !0 }
                   ]
                 ])
               ]),
-              default: me(() => [
-                q(N, {
-                  onClick: D[1] || (D[1] = (z) => w("editGroup")),
+              default: he(() => [
+                ee(N, {
+                  onClick: D[1] || (D[1] = (K) => w("editGroup")),
                   class: "hover:text-[var(--project-color)] list-menu-item"
                 }, {
-                  default: me(() => [
-                    q(P, {
+                  default: he(() => [
+                    ee(P, {
                       name: "edit",
                       class: "icon-menu"
                     }),
-                    ne("span", Va, he(V(i)("kanboard.group.edit_group")), 1)
+                    ne("span", Ka, me(V(i)("kanboard.group.edit_group")), 1)
                   ]),
                   _: 1
                 }),
-                q(N, {
+                ee(N, {
                   onClick: C,
                   class: "hover:text-[var(--theme--danger)] list-menu-item"
                 }, {
-                  default: me(() => [
-                    q(P, {
+                  default: he(() => [
+                    ee(P, {
                       name: "delete",
                       class: "icon-menu"
                     }),
-                    ne("span", Ka, he(V(i)("kanboard.group.delete_group")), 1)
+                    ne("span", za, me(V(i)("kanboard.group.delete_group")), 1)
                   ]),
                   _: 1
                 })
@@ -8969,8 +8964,8 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
             })
           ])
         ]),
-        ne("main", za, [
-          q(V(An), {
+        ne("main", Wa, [
+          ee(V(An), {
             class: "cards",
             list: V(p),
             "item-key": "id",
@@ -8979,21 +8974,21 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
             animation: 150,
             onChange: h
           }, {
-            item: me(({ element: z, index: Y }) => {
-              var le;
+            item: he(({ element: K, index: Y }) => {
+              var ue;
               return [
-                q(ka, {
+                ee(_a, {
                   "layout-options": V(o),
-                  item: z,
-                  "data-item-id": z[(le = V(g)) == null ? void 0 : le.field],
+                  item: K,
+                  "data-item-id": K[(ue = V(g)) == null ? void 0 : ue.field],
                   collectionKey: V(d),
                   "primary-key-field": V(g),
                   "open-change-log": R.openChangeLog,
                   "open-drawer-item-edit": R.openDrawerItemEdit,
-                  onClick: (ae) => A(z, Y),
+                  onClick: (ae) => A(K, Y),
                   onDeleteItem: (ae) => O(Y),
-                  onEditItem: (ae) => A(z, Y),
-                  onOpenChangeLog: (ae) => R.$emit("openChangeLog", z)
+                  onEditItem: (ae) => A(K, Y),
+                  onOpenChangeLog: (ae) => R.$emit("openChangeLog", K)
                 }, null, 8, ["layout-options", "item", "data-item-id", "collectionKey", "primary-key-field", "open-change-log", "open-drawer-item-edit", "onClick", "onDeleteItem", "onEditItem", "onOpenChangeLog"])
               ];
             }),
@@ -9003,7 +8998,7 @@ const Ca = { class: "card drag-handle" }, Da = { class: "text-14px" }, Ta = { cl
       ]);
     };
   }
-}), Ha = /* @__PURE__ */ Er(Wa, [["__scopeId", "data-v-1b5c00ef"]]);
+}), Ya = /* @__PURE__ */ Er(Ha, [["__scopeId", "data-v-1b5c00ef"]]);
 function un(S) {
   const b = [
     "Jan",
@@ -9023,25 +9018,25 @@ function un(S) {
   const e = y.getMinutes(), r = g >= 12 ? "pm" : "am";
   return g = g % 12 || 12, `${w} ${m}, ${g}:${(e < 10 ? "0" : "") + e}${r}`;
 }
-function Ya(S) {
+function Xa(S) {
   return S.split("_").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 }
-const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, Ja = {
-  key: 0,
-  class: "text-14px text-[var(--theme--danger)]"
-}, Qa = {
+const Za = { class: "kanboard" }, Ja = { class: "ml-8px font-500 text-14px" }, Qa = {
   key: 0,
   class: "text-14px text-[var(--theme--danger)]"
 }, qa = {
+  key: 0,
+  class: "text-14px text-[var(--theme--danger)]"
+}, eo = {
   key: 1,
   class: "text-14px text-[var(--theme--danger)]"
-}, eo = ["onClick"], to = { class: "w-40px h-40px" }, ro = {
+}, to = ["onClick"], ro = { class: "w-40px h-40px" }, no = {
   key: 0,
   class: "w-100% h-100%"
-}, no = {
+}, ao = {
   key: 1,
   class: "w-100% h-100% rounded-full bg-slate-200"
-}, ao = { class: "ml-12px" }, oo = { class: "text-14px font-400" }, so = { class: "font-700" }, io = { key: 0 }, lo = { key: 1 }, uo = { class: "flex items-center text-12px font-400 leading-18px" }, co = { class: "ml-4px" }, fo = { class: "px-40px" }, po = { class: "text-16px font-600 mb-8px" }, mo = { class: "px-10px py-5px text-[var(--theme--danger)] bg-[var(--red-10)]" }, ho = { class: "ml-20px" }, go = { class: "px-10px py-5px text-[var(--theme--success)] bg-[var(--green-10)]" }, vo = { class: "ml-20px" }, yo = { class: "confirm-delete" }, bo = /* @__PURE__ */ xr({
+}, oo = { class: "ml-12px" }, so = { class: "text-14px font-400" }, io = { class: "font-700" }, lo = { key: 0 }, uo = { key: 1 }, co = { class: "flex items-center text-12px font-400 leading-18px" }, fo = { class: "ml-4px" }, po = { class: "px-40px" }, mo = { class: "text-16px font-600 mb-8px" }, ho = { class: "px-10px py-5px text-[var(--theme--danger)] bg-[var(--red-10)]" }, go = { class: "ml-20px" }, vo = { class: "px-10px py-5px text-[var(--theme--success)] bg-[var(--green-10)]" }, yo = { class: "ml-20px" }, bo = { class: "confirm-delete" }, xo = /* @__PURE__ */ xr({
   inheritAttrs: !1,
   __name: "layout",
   props: {
@@ -9139,8 +9134,8 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
       );
       F.push(Oe);
     }
-    const W = Ie(!1), ee = Ie(!1), ue = Ie([]);
-    async function z(X) {
+    const W = Ie(!1), q = Ie(!1), le = Ie([]);
+    async function K(X) {
       var fe;
       const H = await m.get("revisions", {
         params: {
@@ -9159,7 +9154,7 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
           }
         }
       });
-      ue.value = H.data.data, ue.value.map(async (Oe) => {
+      le.value = H.data.data, le.value.map(async (Oe) => {
         var Be, ke;
         if ((Be = Oe == null ? void 0 : Oe.data) != null && Be.user_updated) {
           const te = await m.get(`users/${(ke = Oe == null ? void 0 : Oe.data) == null ? void 0 : ke.user_updated}`, {
@@ -9169,9 +9164,9 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
           });
           Oe.dataUserUpdate = te.data.data;
         }
-      }), console.log("listRevisions.value", ue.value), W.value = !0;
+      }), console.log("listRevisions.value", le.value), W.value = !0;
     }
-    const Y = Ie(""), le = Ie({});
+    const Y = Ie(""), ue = Ie({});
     function ae(X, H) {
       var Oe, Be, ke, te, ye, be;
       Y.value = `${un(
@@ -9180,15 +9175,15 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
       const fe = [];
       for (let ce in X == null ? void 0 : X.data)
         if (ce !== "id") {
-          const Z = X == null ? void 0 : X.data[ce], Te = (te = ue.value[H + 1]) == null ? void 0 : te.data[ce];
+          const Z = X == null ? void 0 : X.data[ce], Te = (te = le.value[H + 1]) == null ? void 0 : te.data[ce];
           Z !== Te && (Z != null || Te != null) && fe.push({ key: ce, oldValue: Z, newValue: Te });
         }
-      for (let ce in (ye = ue.value[H + 1]) == null ? void 0 : ye.data)
+      for (let ce in (ye = le.value[H + 1]) == null ? void 0 : ye.data)
         if (ce !== "id") {
-          const Te = (be = ue.value[H + 1]) == null ? void 0 : be.data[ce];
+          const Te = (be = le.value[H + 1]) == null ? void 0 : be.data[ce];
           !(X != null && X.data.hasOwnProperty(ce)) && Te !== null && Te !== void 0 && fe.push({ key: ce, oldValue: null, newValue: Te });
         }
-      le.value = fe, ee.value = !0;
+      ue.value = fe, q.value = !0;
     }
     function Ee() {
       $.value = !1, setTimeout(() => {
@@ -9248,8 +9243,8 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
       }
     ), (X, H) => {
       const fe = De("v-icon"), Oe = De("v-card-title"), Be = De("v-input"), ke = De("v-card-text"), te = De("v-button"), ye = De("v-card-actions"), be = De("v-card"), ce = De("v-dialog"), Z = De("DrawerItem"), Te = De("v-image"), We = De("v-drawer"), $e = Br("tooltip");
-      return Ce(), ze("div", Xa, [
-        q(V(An), {
+      return Ce(), ze("div", Za, [
+        ee(V(An), {
           "model-value": X.groupedItems,
           group: "groups",
           "item-key": "id",
@@ -9258,8 +9253,8 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
           class: Rt(["draggable", { sortable: X.groupsSortField !== null }]),
           onChange: X.changeGroupSort
         }, {
-          item: me(({ element: B, index: He }) => [
-            (Ce(), ht(Ha, {
+          item: he(({ element: B, index: He }) => [
+            (Ce(), ht(Ya, {
               key: B.title,
               "group-title": B.title,
               "group-index": He,
@@ -9278,7 +9273,7 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
               "new-item-data": O.value,
               onCreateItem: x,
               onEditItem: N,
-              onOpenChangeLog: z,
+              onOpenChangeLog: K,
               onClickItem: N,
               onDeleteGroup: (Xe) => n(B.id),
               onEditGroup: (Xe) => c(B)
@@ -9290,61 +9285,61 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
           class: "add-group",
           onClick: H[0] || (H[0] = (B) => g.value = "+")
         }, [
-          q(fe, { name: "add_box" }),
-          ne("span", Za, he(V(w)("kanboard.layout.add_new_list")), 1)
+          ee(fe, { name: "add_box" }),
+          ne("span", Ja, me(V(w)("kanboard.layout.add_new_list")), 1)
         ]),
-        q(ce, {
+        ee(ce, {
           "model-value": g.value !== null,
           onEsc: H[4] || (H[4] = (B) => o())
         }, {
-          default: me(() => [
-            q(be, null, {
-              default: me(() => [
-                q(Oe, null, {
-                  default: me(() => [
-                    tt(he(g.value === "+" ? V(w)("layouts.kanban.add_group") : V(w)("layouts.kanban.edit_group")), 1)
+          default: he(() => [
+            ee(be, null, {
+              default: he(() => [
+                ee(Oe, null, {
+                  default: he(() => [
+                    tt(me(g.value === "+" ? V(w)("layouts.kanban.add_group") : V(w)("layouts.kanban.edit_group")), 1)
                   ]),
                   _: 1
                 }),
-                q(ke, null, {
-                  default: me(() => [
-                    q(Be, {
+                ee(ke, null, {
+                  default: he(() => [
+                    ee(Be, {
                       modelValue: e.value,
                       "onUpdate:modelValue": H[1] || (H[1] = (B) => e.value = B),
                       placeholder: V(w)("layouts.kanban.add_group_placeholder"),
                       onBlur: l
                     }, null, 8, ["modelValue", "placeholder"]),
-                    f.value ? (Ce(), ze("span", Ja, he(V(w)("kanboard.layouts.required_title")), 1)) : dt("", !0)
+                    f.value ? (Ce(), ze("span", Qa, me(V(w)("kanboard.layouts.required_title")), 1)) : dt("", !0)
                   ]),
                   _: 1
                 }),
-                q(ke, null, {
-                  default: me(() => [
-                    q(Be, {
+                ee(ke, null, {
+                  default: he(() => [
+                    ee(Be, {
                       modelValue: r.value,
                       "onUpdate:modelValue": H[2] || (H[2] = (B) => r.value = B),
                       placeholder: V(w)("kanboard.layout.add_value_group_placeholder"),
                       onBlur: p
                     }, null, 8, ["modelValue", "placeholder"]),
-                    d.value ? (Ce(), ze("span", Qa, he(V(w)("kanboard.layouts.required_value")), 1)) : dt("", !0),
-                    t.value ? (Ce(), ze("span", qa, he(V(w)("kanboard.layouts.id_already_exists")), 1)) : dt("", !0)
+                    d.value ? (Ce(), ze("span", qa, me(V(w)("kanboard.layouts.required_value")), 1)) : dt("", !0),
+                    t.value ? (Ce(), ze("span", eo, me(V(w)("kanboard.layouts.id_already_exists")), 1)) : dt("", !0)
                   ]),
                   _: 1
                 }),
-                q(ye, null, {
-                  default: me(() => [
-                    q(te, {
+                ee(ye, null, {
+                  default: he(() => [
+                    ee(te, {
                       secondary: "",
                       onClick: H[3] || (H[3] = (B) => o())
                     }, {
-                      default: me(() => [
-                        tt(he(V(w)("cancel")), 1)
+                      default: he(() => [
+                        tt(me(V(w)("cancel")), 1)
                       ]),
                       _: 1
                     }),
-                    q(te, { onClick: v }, {
-                      default: me(() => [
-                        tt(he(g.value === "+" ? V(w)("create") : V(w)("save")), 1)
+                    ee(te, { onClick: v }, {
+                      default: he(() => [
+                        tt(me(g.value === "+" ? V(w)("create") : V(w)("save")), 1)
                       ]),
                       _: 1
                     })
@@ -9357,7 +9352,7 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
           ]),
           _: 1
         }, 8, ["model-value"]),
-        q(Z, {
+        ee(Z, {
           active: E.value,
           "onUpdate:active": H[5] || (H[5] = (B) => E.value = B),
           collection: V(Pe),
@@ -9365,7 +9360,7 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
           "primary-key": "+",
           onInput: A
         }, null, 8, ["active", "collection", "edits"]),
-        q(Z, {
+        ee(Z, {
           active: $.value,
           "onUpdate:active": H[6] || (H[6] = (B) => $.value = B),
           collection: V(Pe),
@@ -9373,12 +9368,12 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
           "circular-field": "status",
           onInput: Se
         }, {
-          actions: me(() => [
+          actions: he(() => [
             Zt((Ce(), ze("div", {
               onClick: Ee,
               class: Rt([{ "disable-button-next-pre": P.value }, "bg-[var(--purple-25)] w-44px h-44px flex flex-col items-center justify-center text-[var(--purple-75)] rounded-50% hover:bg-[var(--purple-50)] cursor-pointer"])
             }, [
-              q(fe, { name: "keyboard_arrow_down" })
+              ee(fe, { name: "keyboard_arrow_down" })
             ], 2)), [
               [
                 $e,
@@ -9391,7 +9386,7 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
               onClick: ve,
               class: Rt([{ "disable-button-next-pre": D.value }, "bg-[var(--purple-25)] w-44px h-44px flex flex-col items-center justify-center text-[var(--purple-75)] rounded-50% hover:bg-[var(--purple-50)] cursor-pointer"])
             }, [
-              q(fe, { name: "keyboard_arrow_up" })
+              ee(fe, { name: "keyboard_arrow_up" })
             ], 2)), [
               [
                 $e,
@@ -9403,23 +9398,23 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
           ]),
           _: 1
         }, 8, ["active", "collection", "edits"]),
-        q(We, {
+        ee(We, {
           "model-value": W.value,
           title: "CHANGE LOG",
           subtitle: "Card's log",
           onCancel: H[7] || (H[7] = (B) => W.value = !1),
           class: "w-256px customer"
         }, {
-          default: me(() => [
-            (Ce(!0), ze(Nr, null, Yr(ue.value, (B, He) => {
-              var Xe, j, T, M, L, G, re, se, ge, Re, _, k, K;
+          default: he(() => [
+            (Ce(!0), ze(Nr, null, Yr(le.value, (B, He) => {
+              var Xe, j, T, M, L, G, re, se, ge, Re, _, k, z;
               return Ce(), ze("div", {
                 key: He,
                 class: "item-change-log",
                 onClick: (Q) => ae(B, He)
               }, [
-                ne("div", to, [
-                  (Xe = B == null ? void 0 : B.dataUserUpdate) != null && Xe.avatar || (T = (j = B == null ? void 0 : B.activity) == null ? void 0 : j.user) != null && T.avatar ? (Ce(), ze("div", ro, [
+                ne("div", ro, [
+                  (Xe = B == null ? void 0 : B.dataUserUpdate) != null && Xe.avatar || (T = (j = B == null ? void 0 : B.activity) == null ? void 0 : j.user) != null && T.avatar ? (Ce(), ze("div", no, [
                     ((M = B == null ? void 0 : B.activity) == null ? void 0 : M.action) === "update" ? (Ce(), ht(Te, {
                       key: 0,
                       class: "render-thumbnail",
@@ -9430,87 +9425,87 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
                       class: "render-thumbnail",
                       src: V(br)((se = (re = B == null ? void 0 : B.activity) == null ? void 0 : re.user) == null ? void 0 : se.avatar)
                     }, null, 8, ["src"])) : dt("", !0)
-                  ])) : (Ce(), ze("div", no))
+                  ])) : (Ce(), ze("div", ao))
                 ]),
-                ne("div", ao, [
-                  ne("div", oo, [
-                    ne("span", so, he((Re = (ge = B == null ? void 0 : B.activity) == null ? void 0 : ge.user) == null ? void 0 : Re.email), 1),
-                    ((_ = B == null ? void 0 : B.activity) == null ? void 0 : _.action) === "update" ? (Ce(), ze("span", io, he(V(w)("kanboard.changelog.text_update")), 1)) : dt("", !0),
-                    ((k = B == null ? void 0 : B.activity) == null ? void 0 : k.action) === "create" ? (Ce(), ze("span", lo, he(V(w)("kanboard.changelog.text_create")), 1)) : dt("", !0)
+                ne("div", oo, [
+                  ne("div", so, [
+                    ne("span", io, me((Re = (ge = B == null ? void 0 : B.activity) == null ? void 0 : ge.user) == null ? void 0 : Re.email), 1),
+                    ((_ = B == null ? void 0 : B.activity) == null ? void 0 : _.action) === "update" ? (Ce(), ze("span", lo, me(V(w)("kanboard.changelog.text_update")), 1)) : dt("", !0),
+                    ((k = B == null ? void 0 : B.activity) == null ? void 0 : k.action) === "create" ? (Ce(), ze("span", uo, me(V(w)("kanboard.changelog.text_create")), 1)) : dt("", !0)
                   ]),
-                  ne("div", uo, [
-                    q(fe, { name: "nest_clock_farsight_analog" }),
-                    ne("span", co, he(V(un)((K = B == null ? void 0 : B.activity) == null ? void 0 : K.timestamp)), 1)
+                  ne("div", co, [
+                    ee(fe, { name: "nest_clock_farsight_analog" }),
+                    ne("span", fo, me(V(un)((z = B == null ? void 0 : B.activity) == null ? void 0 : z.timestamp)), 1)
                   ])
                 ])
-              ], 8, eo);
+              ], 8, to);
             }), 128))
           ]),
           _: 1
         }, 8, ["model-value"]),
-        q(We, {
-          "model-value": ee.value,
+        ee(We, {
+          "model-value": q.value,
           title: "Item Revision",
           subtitle: Y.value ? Y.value : null,
-          onCancel: H[8] || (H[8] = (B) => ee.value = !1)
+          onCancel: H[8] || (H[8] = (B) => q.value = !1)
         }, {
-          default: me(() => [
-            ne("div", fo, [
-              (Ce(!0), ze(Nr, null, Yr(le.value, (B) => (Ce(), ze("div", {
+          default: he(() => [
+            ne("div", po, [
+              (Ce(!0), ze(Nr, null, Yr(ue.value, (B) => (Ce(), ze("div", {
                 key: B.key,
                 class: "item-detail-revision text-15px"
               }, [
-                ne("div", po, he(V(Ya)(B == null ? void 0 : B.key)), 1),
-                ne("div", mo, [
+                ne("div", mo, me(V(Xa)(B == null ? void 0 : B.key)), 1),
+                ne("div", ho, [
                   tt(" - "),
-                  ne("span", ho, he(B == null ? void 0 : B.newValue), 1)
+                  ne("span", go, me(B == null ? void 0 : B.newValue), 1)
                 ]),
-                ne("div", go, [
+                ne("div", vo, [
                   tt(" - "),
-                  ne("span", vo, he(B == null ? void 0 : B.oldValue), 1)
+                  ne("span", yo, me(B == null ? void 0 : B.oldValue), 1)
                 ])
               ]))), 128))
             ])
           ]),
           _: 1
         }, 8, ["model-value", "subtitle"]),
-        q(ce, {
+        ee(ce, {
           "model-value": i.value,
           onEsc: H[10] || (H[10] = (B) => u())
         }, {
-          default: me(() => [
-            ne("div", yo, [
-              q(be, null, {
-                default: me(() => [
-                  q(Oe, null, {
-                    default: me(() => [
-                      tt(he(V(w)("kanboard.popup_confirm.title")), 1)
+          default: he(() => [
+            ne("div", bo, [
+              ee(be, null, {
+                default: he(() => [
+                  ee(Oe, null, {
+                    default: he(() => [
+                      tt(me(V(w)("kanboard.popup_confirm.title")), 1)
                     ]),
                     _: 1
                   }),
-                  q(ke, null, {
-                    default: me(() => [
-                      tt(he(V(w)("kanboard.popup_confirm.text")), 1)
+                  ee(ke, null, {
+                    default: he(() => [
+                      tt(me(V(w)("kanboard.popup_confirm.text")), 1)
                     ]),
                     _: 1
                   }),
-                  q(ye, null, {
-                    default: me(() => [
-                      q(te, {
+                  ee(ye, null, {
+                    default: he(() => [
+                      ee(te, {
                         secondary: "",
                         onClick: H[9] || (H[9] = (B) => u())
                       }, {
-                        default: me(() => [
-                          tt(he(V(w)("kanboard.button.cancel")), 1)
+                        default: he(() => [
+                          tt(me(V(w)("kanboard.button.cancel")), 1)
                         ]),
                         _: 1
                       }),
-                      q(te, {
+                      ee(te, {
                         class: "button-confirm-delete",
                         onClick: s
                       }, {
-                        default: me(() => [
-                          tt(he(V(w)("kanboard.button.delete")), 1)
+                        default: he(() => [
+                          tt(me(V(w)("kanboard.button.delete")), 1)
                         ]),
                         _: 1
                       })
@@ -9527,13 +9522,13 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
       ]);
     };
   }
-}), xo = /* @__PURE__ */ Er(bo, [["__scopeId", "data-v-5e0ce28a"]]), So = { class: "field" }, wo = { class: "type-label" }, Eo = {
+}), So = /* @__PURE__ */ Er(xo, [["__scopeId", "data-v-5e0ce28a"]]), wo = { class: "field" }, Eo = { class: "type-label" }, Oo = {
   key: 0,
   class: "field"
-}, Oo = { class: "type-label" }, $o = { class: "field" }, Io = { class: "type-label" }, Ao = { class: "field" }, Ro = { class: "type-label" }, Co = { class: "nested-options" }, Do = { class: "field" }, To = { class: "type-label" }, jo = { class: "field" }, Po = { class: "type-label" }, Fo = { class: "field" }, Mo = { class: "type-label" }, No = { class: "field" }, Lo = { class: "type-label" }, ko = { class: "field" }, _o = { class: "type-label" }, Uo = { class: "field" }, Go = { class: "type-label" }, Bo = {
+}, $o = { class: "type-label" }, Io = { class: "field" }, Ao = { class: "type-label" }, Ro = { class: "field" }, Co = { class: "type-label" }, Do = { class: "nested-options" }, To = { class: "field" }, jo = { class: "type-label" }, Po = { class: "field" }, Fo = { class: "type-label" }, Mo = { class: "field" }, No = { class: "type-label" }, Lo = { class: "field" }, ko = { class: "type-label" }, _o = { class: "field" }, Uo = { class: "type-label" }, Go = { class: "field" }, Bo = { class: "type-label" }, Vo = {
   inheritAttrs: !1
-}, Vo = /* @__PURE__ */ xr({
-  ...Bo,
+}, Ko = /* @__PURE__ */ xr({
+  ...Vo,
   __name: "options",
   props: {
     collection: {},
@@ -9573,9 +9568,9 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
     return (n, u) => {
       const s = De("v-select"), l = De("v-checkbox"), p = De("v-detail");
       return Ce(), ze(Nr, null, [
-        ne("div", So, [
-          ne("div", wo, he(V(m)("layouts.kanban.group_field")), 1),
-          q(s, {
+        ne("div", wo, [
+          ne("div", Eo, me(V(m)("layouts.kanban.group_field")), 1),
+          ee(s, {
             modelValue: V(t),
             "onUpdate:modelValue": u[0] || (u[0] = (v) => mt(t) ? t.value = v : null),
             "item-value": "field",
@@ -9584,9 +9579,9 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
             placeholder: V(m)("layouts.kanban.group_field_placeholder")
           }, null, 8, ["modelValue", "items", "placeholder"])
         ]),
-        V(t) && n.isRelational ? (Ce(), ze("div", Eo, [
-          ne("div", Oo, he(V(m)("layouts.kanban.group_title")), 1),
-          q(s, {
+        V(t) && n.isRelational ? (Ce(), ze("div", Oo, [
+          ne("div", $o, me(V(m)("layouts.kanban.group_title")), 1),
+          ee(s, {
             modelValue: V(o),
             "onUpdate:modelValue": u[1] || (u[1] = (v) => mt(o) ? o.value = v : null),
             "item-value": "field",
@@ -9595,9 +9590,9 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
             placeholder: V(m)("layouts.kanban.group_title_placeholder")
           }, null, 8, ["modelValue", "items", "placeholder"])
         ])) : dt("", !0),
-        ne("div", $o, [
-          ne("div", Io, he(V(m)("layouts.kanban.title")), 1),
-          q(s, {
+        ne("div", Io, [
+          ne("div", Ao, me(V(m)("layouts.kanban.title")), 1),
+          ee(s, {
             modelValue: V(e),
             "onUpdate:modelValue": u[2] || (u[2] = (v) => mt(e) ? e.value = v : null),
             items: n.fieldGroups.title,
@@ -9607,9 +9602,9 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
             "show-deselect": ""
           }, null, 8, ["modelValue", "items", "placeholder"])
         ]),
-        ne("div", Ao, [
-          ne("div", Ro, he(V(m)("layouts.kanban.text")), 1),
-          q(s, {
+        ne("div", Ro, [
+          ne("div", Co, me(V(m)("layouts.kanban.text")), 1),
+          ee(s, {
             modelValue: V(c),
             "onUpdate:modelValue": u[3] || (u[3] = (v) => mt(c) ? c.value = v : null),
             items: n.fieldGroups.text,
@@ -9619,15 +9614,15 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
             "show-deselect": ""
           }, null, 8, ["modelValue", "items", "placeholder"])
         ]),
-        q(p, { class: "field" }, {
-          title: me(() => [
-            tt(he(V(m)("layouts.kanban.advanced")), 1)
+        ee(p, { class: "field" }, {
+          title: he(() => [
+            tt(me(V(m)("layouts.kanban.advanced")), 1)
           ]),
-          default: me(() => [
-            ne("div", Co, [
-              ne("div", Do, [
-                ne("div", To, he(V(m)("layouts.kanban.date")), 1),
-                q(s, {
+          default: he(() => [
+            ne("div", Do, [
+              ne("div", To, [
+                ne("div", jo, me(V(m)("layouts.kanban.date")), 1),
+                ee(s, {
                   modelValue: V(i),
                   "onUpdate:modelValue": u[4] || (u[4] = (v) => mt(i) ? i.value = v : null),
                   items: n.fieldGroups.date,
@@ -9637,9 +9632,9 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
                   "show-deselect": ""
                 }, null, 8, ["modelValue", "items", "placeholder"])
               ]),
-              ne("div", jo, [
-                ne("div", Po, he(V(m)("layouts.kanban.image")), 1),
-                q(s, {
+              ne("div", Po, [
+                ne("div", Fo, me(V(m)("layouts.kanban.image")), 1),
+                ee(s, {
                   modelValue: V(g),
                   "onUpdate:modelValue": u[5] || (u[5] = (v) => mt(g) ? g.value = v : null),
                   "show-deselect": "",
@@ -9649,27 +9644,27 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
                   placeholder: V(m)("layouts.kanban.image_placeholder")
                 }, null, 8, ["modelValue", "items", "placeholder"])
               ]),
-              ne("div", Fo, [
-                ne("div", Mo, he(V(m)("layouts.kanban.image_fit")), 1),
-                q(l, {
+              ne("div", Mo, [
+                ne("div", No, me(V(m)("layouts.kanban.image_fit")), 1),
+                ee(l, {
                   modelValue: V(r),
                   "onUpdate:modelValue": u[6] || (u[6] = (v) => mt(r) ? r.value = v : null),
                   block: "",
                   label: V(m)("layouts.kanban.crop")
                 }, null, 8, ["modelValue", "label"])
               ]),
-              ne("div", No, [
-                ne("div", Lo, he(V(m)("kanboard.option.show_index")), 1),
-                q(l, {
+              ne("div", Lo, [
+                ne("div", ko, me(V(m)("kanboard.option.show_index")), 1),
+                ee(l, {
                   modelValue: V(d),
                   "onUpdate:modelValue": u[7] || (u[7] = (v) => mt(d) ? d.value = v : null),
                   block: "",
                   label: "Show"
                 }, null, 8, ["modelValue"])
               ]),
-              ne("div", ko, [
-                ne("div", _o, he(V(m)("layouts.kanban.user")), 1),
-                q(s, {
+              ne("div", _o, [
+                ne("div", Uo, me(V(m)("layouts.kanban.user")), 1),
+                ee(s, {
                   modelValue: V(a),
                   "onUpdate:modelValue": u[8] || (u[8] = (v) => mt(a) ? a.value = v : null),
                   items: n.fieldGroups.user,
@@ -9679,9 +9674,9 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
                   "show-deselect": ""
                 }, null, 8, ["modelValue", "items", "placeholder"])
               ]),
-              ne("div", Uo, [
-                ne("div", Go, he(V(m)("layouts.kanban.show_ungrouped")), 1),
-                q(l, {
+              ne("div", Go, [
+                ne("div", Bo, me(V(m)("layouts.kanban.show_ungrouped")), 1),
+                ee(l, {
                   modelValue: V(f),
                   "onUpdate:modelValue": u[9] || (u[9] = (v) => mt(f) ? f.value = v : null),
                   block: "",
@@ -9695,7 +9690,7 @@ const Xa = { class: "kanboard" }, Za = { class: "ml-8px font-500 text-14px" }, J
       ], 64);
     };
   }
-}), Ko = /* @__PURE__ */ Er(Vo, [["__scopeId", "data-v-5d0d52af"]]);
+}), zo = /* @__PURE__ */ Er(Ko, [["__scopeId", "data-v-5d0d52af"]]);
 var Rn = { kanboard: {
   layout: {
     add_value_group_placeholder: "Enter a new group id...",
@@ -9729,13 +9724,13 @@ var Rn = { kanboard: {
   option: { show_index: "Show Index" }
 } };
 Rn.kanboard;
-const zo = Tn({
+const Wo = Tn({
   id: "cdh-kanboard",
   name: "Kanboard",
   icon: "view_kanban",
-  component: xo,
+  component: So,
   slots: {
-    options: Ko,
+    options: zo,
     sidebar: () => null,
     actions: null
   },
@@ -9790,11 +9785,11 @@ const zo = Tn({
       dateField: F,
       tagsField: N,
       userField: W,
-      showUngrouped: ee,
-      showIndex: ue,
-      enableInfiniteScroll: z,
+      showUngrouped: q,
+      showIndex: le,
+      enableInfiniteScroll: K,
       userFieldJunction: Y,
-      userFieldType: le
+      userFieldType: ue
     } = Oe(), {
       groups: ae,
       groupsSortField: Ee,
@@ -9819,7 +9814,7 @@ const zo = Tn({
           // items: [],
           sort: B
         };
-      }), ee.value && (Z._ungrouped = {
+      }), q.value && (Z._ungrouped = {
         id: null,
         // items: [],
         title: "_ungrouped",
@@ -9827,7 +9822,7 @@ const zo = Tn({
       }), Object.values(Z).sort(($e, B) => $e.sort - B.sort));
     });
     function Oe() {
-      var re, se, ge, Re, _, k, K;
+      var re, se, ge, Re, _, k, z;
       const te = G(
         "groupField",
         ((re = h.value.group[0]) == null ? void 0 : re.field) ?? null
@@ -9851,7 +9846,7 @@ const zo = Tn({
         !1
       ), Xe = G(
         "imageSource",
-        ((K = h.value.file[0]) == null ? void 0 : K.field) ?? null
+        ((z = h.value.file[0]) == null ? void 0 : z.field) ?? null
       ), j = G("crop", !0), T = Ke(
         () => h.value.group.find(
           (Q) => Q.field === te.value
@@ -9908,8 +9903,8 @@ const zo = Tn({
       var Re;
       const te = Ke(
         () => {
-          var _, k, K;
-          return !((K = (k = (_ = P.value) == null ? void 0 : _.meta) == null ? void 0 : k.options) != null && K.choices);
+          var _, k, z;
+          return !((z = (k = (_ = P.value) == null ? void 0 : _.meta) == null ? void 0 : k.options) != null && z.choices);
         }
       ), ye = Ke(() => {
         if (te.value) {
@@ -9917,8 +9912,8 @@ const zo = Tn({
           if (_ === null)
             return null;
           const k = f.relations.find(
-            (K) => Zr({
-              relation: K,
+            (z) => Zr({
+              relation: z,
               collection: i.value,
               field: _
             }) === "m2o"
@@ -9954,8 +9949,8 @@ const zo = Tn({
       });
       return {
         groups: Ke(() => {
-          var _, k, K;
-          return te.value ? He.value : ((K = (k = (_ = P.value) == null ? void 0 : _.meta) == null ? void 0 : k.options) == null ? void 0 : K.choices) ?? [];
+          var _, k, z;
+          return te.value ? He.value : ((z = (k = (_ = P.value) == null ? void 0 : _.meta) == null ? void 0 : k.options) == null ? void 0 : z.choices) ?? [];
         }),
         groupsLoading: Xe,
         groupsError: j,
@@ -9973,13 +9968,13 @@ const zo = Tn({
         isRelational: te
       };
       async function G(_) {
-        var k, K, Q, oe;
+        var k, z, Q, oe;
         if (te.value) {
           if (((k = s.value) == null ? void 0 : k.field) === void 0 || !ye.value)
             return;
           await m.delete(`${Or(ye.value)}/${_}`);
         } else {
-          const Ae = (oe = (Q = (K = P.value) == null ? void 0 : K.meta) == null ? void 0 : Q.options) == null ? void 0 : oe.choices.filter(
+          const Ae = (oe = (Q = (z = P.value) == null ? void 0 : z.meta) == null ? void 0 : Q.options) == null ? void 0 : oe.choices.filter(
             (pt) => pt.value !== _
           );
           await c.updateField(
@@ -9993,7 +9988,7 @@ const zo = Tn({
         await M();
       }
       async function re(_, k) {
-        var K, Q, oe;
+        var z, Q, oe;
         if (te.value) {
           if (O.value === null || !ye.value)
             return;
@@ -10003,7 +9998,7 @@ const zo = Tn({
         } else {
           if (!P.value)
             return;
-          const Ae = (oe = (Q = (K = P.value) == null ? void 0 : K.meta) == null ? void 0 : Q.options) == null ? void 0 : oe.choices;
+          const Ae = (oe = (Q = (z = P.value) == null ? void 0 : z.meta) == null ? void 0 : Q.options) == null ? void 0 : oe.choices;
           Ae.push({ text: _, value: k }), await c.updateField(
             P.value.collection,
             P.value.field,
@@ -10014,7 +10009,7 @@ const zo = Tn({
         }
         await M();
       }
-      async function se(_, k, K) {
+      async function se(_, k, z) {
         var Q, oe, Ae;
         if (te.value) {
           if (O.value === null || !ye.value)
@@ -10028,7 +10023,7 @@ const zo = Tn({
           const pt = (((Ae = (oe = (Q = P.value) == null ? void 0 : Q.meta) == null ? void 0 : oe.options) == null ? void 0 : Ae.choices) ?? []).map((Ot) => Ot.value === _ ? {
             ...Ot,
             text: k,
-            value: K
+            value: z
           } : Ot);
           await c.updateField(
             P.value.collection,
@@ -10044,16 +10039,16 @@ const zo = Tn({
         var oe, Ae;
         if (!_.moved)
           return;
-        const k = ee.value ? 1 : 0, K = (oe = fe.value[_.moved.oldIndex - k]) == null ? void 0 : oe.id, Q = (Ae = fe.value[_.moved.newIndex - k]) == null ? void 0 : Ae.id;
-        if (!(!K || !Q))
+        const k = q.value ? 1 : 0, z = (oe = fe.value[_.moved.oldIndex - k]) == null ? void 0 : oe.id, Q = (Ae = fe.value[_.moved.newIndex - k]) == null ? void 0 : Ae.id;
+        if (!(!z || !Q))
           if (te.value) {
             if (ce.value == null)
               return;
-            await T({ item: K, to: Q });
+            await T({ item: z, to: Q });
           } else {
             if (!P.value)
               return;
-            const pt = fe.value.map((er) => er.id), Ot = pt.indexOf(K), Dt = pt.indexOf(Q), Cn = Un(
+            const pt = fe.value.map((er) => er.id), Ot = pt.indexOf(z), Dt = pt.indexOf(Q), Cn = Un(
               fe.value.map((er) => ({ text: er.title, value: er.id })),
               Ot,
               Dt
@@ -10100,8 +10095,8 @@ const zo = Tn({
         if (!s.value || !S.collection)
           return [];
         const Z = [s.value.field];
-        if (A.value && (Z.push(`${A.value}.modified_on`), Z.push(`${A.value}.type`), Z.push(`${A.value}.filename_disk`), Z.push(`${A.value}.storage`), Z.push(`${A.value}.id`)), S.collection === "directus_files" && A.value === "$thumbnail" && (Z.push("modified_on"), Z.push("type")), le.value !== void 0) {
-          const $e = le.value === "m2m" ? `${W.value}.${(We = (Te = Y.value) == null ? void 0 : Te.meta) == null ? void 0 : We.junction_field}` : `${W.value}`;
+        if (A.value && (Z.push(`${A.value}.modified_on`), Z.push(`${A.value}.type`), Z.push(`${A.value}.filename_disk`), Z.push(`${A.value}.storage`), Z.push(`${A.value}.id`)), S.collection === "directus_files" && A.value === "$thumbnail" && (Z.push("modified_on"), Z.push("type")), ue.value !== void 0) {
+          const $e = ue.value === "m2m" ? `${W.value}.${(We = (Te = Y.value) == null ? void 0 : Te.meta) == null ? void 0 : We.junction_field}` : `${W.value}`;
           Z.push(`${$e}.id`), Z.push(`${$e}.first_name`), Z.push(`${$e}.last_name`), Z.push(`${$e}.avatar.id`), Z.push(`${$e}.avatar.storage`), Z.push(`${$e}.avatar.filename_disk`), Z.push(`${$e}.avatar.type`), Z.push(`${$e}.avatar.modified_on`);
         }
         if (ye.value.length > 0) {
@@ -10150,18 +10145,18 @@ const zo = Tn({
       addGroup: rt,
       editGroup: nt,
       deleteGroup: X,
-      showUngrouped: ee,
-      showIndex: ue,
-      enableInfiniteScroll: z,
-      userFieldType: le
+      showUngrouped: q,
+      showIndex: le,
+      enableInfiniteScroll: K,
+      userFieldType: ue
     };
   }
-}), Jo = [], Qo = [], qo = [zo], es = [], ts = [], rs = [];
+}), Qo = [], qo = [], es = [Wo], ts = [], rs = [], ns = [];
 export {
-  Qo as displays,
-  Jo as interfaces,
-  qo as layouts,
-  es as modules,
-  rs as operations,
-  ts as panels
+  qo as displays,
+  Qo as interfaces,
+  es as layouts,
+  ts as modules,
+  ns as operations,
+  rs as panels
 };

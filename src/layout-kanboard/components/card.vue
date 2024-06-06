@@ -7,12 +7,7 @@
         :class="{'card-image-fill': layoutOptions?.crop}"
         :src="partImage(item?.[layoutOptions?.imageSource])"
       />
-      <display-formatted-value
-        type="text"
-        :value="item?.[layoutOptions?.titleField]"
-        format
-        class="card-title"
-      ></display-formatted-value>
+      <span class="card-title">{{ item?.[layoutOptions?.titleField] }}</span>
       <v-menu show-arrow v-if="isShowMenuCard">
         <template #activator="{toggle, active}">
           <v-button
