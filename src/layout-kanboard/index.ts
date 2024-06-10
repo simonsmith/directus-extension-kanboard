@@ -179,7 +179,6 @@ export default defineLayout({
         itemGroups[id] = {
           id,
           title: translate(title, t),
-          // items: [],
           sort: index,
         }
       })
@@ -187,7 +186,6 @@ export default defineLayout({
       if (showUngrouped.value) {
         itemGroups['_ungrouped'] = {
           id: null,
-          // items: [],
           title: '_ungrouped',
           sort: -1,
         }

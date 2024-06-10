@@ -437,9 +437,6 @@ async function handleOpenDrawerChangeLog(item: Item) {
         item: {
           _eq: item?.[props.primaryKeyField?.field],
         },
-        // version: {
-        //     _null: true,
-        // },
       },
     },
   })
