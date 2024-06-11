@@ -22,6 +22,7 @@
           :filter="filter"
           :search="search"
           :sort="sort"
+          :user-field="userField"
           :class="{draggable: group.id !== null}"
           :primary-key-field="primaryKeyField"
           :reloadGroup="reloadGroup"
@@ -235,7 +236,7 @@
 <script setup lang="ts">
 import {useCollection, useApi} from '@directus/extensions-sdk'
 import {Field, Filter, Item} from '@directus/types'
-import {ref, computed, toRefs, defineOptions} from 'vue'
+import {ref, computed, toRefs, defineOptions, toRaw} from 'vue'
 import {useI18n} from 'vue-i18n'
 import {useRouter} from 'vue-router'
 import Group from './components/group.vue'
@@ -290,6 +291,7 @@ const emit = defineEmits([
   'update:sort',
   'update:width',
   'update:groupTitle',
+  'update:userField',
 ])
 
 const {t} = useI18n()
@@ -556,6 +558,7 @@ async function handleEditItem(data: any) {
 }
 const {collection: collectionKey, layoutOptions} = toRefs(props)
 const collection = useCollection(collectionKey)
+console.log(toRaw(props))
 
 const field = computed<Field | undefined>(() =>
   collection.fields.value.find(

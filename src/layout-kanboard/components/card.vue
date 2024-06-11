@@ -37,9 +37,9 @@
       </div>
       <div class="w-24px h24px">
         <v-image
-          v-if="avatarUserCreate"
+          v-if="userAvatar"
           class="render-avatar-user-created"
-          :src="partImage(avatarUserCreate)"
+          :src="userAvatar"
         />
         <v-icon v-else name="person" />
       </div>
@@ -71,7 +71,7 @@
 <script setup lang="ts">
 import {watch} from 'vue'
 import {Filter} from '@directus/types'
-import {LayoutOptions} from '../types'
+import {LayoutOptions, CardItem} from '../types'
 import {ref} from 'vue'
 import {useApi} from '@directus/extensions-sdk'
 import {useI18n} from 'vue-i18n'
@@ -86,27 +86,58 @@ interface Props {
   collectionKey?: string
   filter?: Filter | null
   search?: string | null
-  item: Object | null
+  item: CardItem | null
+  userField: UserField
 }
+
+export type UserField = 'user_assigned' | 'user_created' | 'user_updated' | null
 
 const props = withDefaults(defineProps<Props>(), {
   layoutOptions: {},
 })
 const {t} = useI18n()
 const api = useApi()
-
 const emit = defineEmits(['deleteItem', 'editItem', 'openChangeLog'])
 
-const avatarUserCreate = ref(null)
-async function getDataUser() {
-  const res = await api.get('/users/' + props.item.user_created, {
+const userAvatar = ref<string | null>(null)
+
+async function getDataUser(apiPath: string): Promise<string | undefined> {
+  const res = await api.get(apiPath, {
     params: {
       fields: ['avatar'],
     },
   })
-  avatarUserCreate.value = res?.data?.data?.avatar
+  const avatarId = res?.data?.data?.avatar
+  return avatarId
 }
-getDataUser()
+
+const getUserApiPath = (userField: UserField, item: CardItem | null) => {
+  if (userField === null || item === null) {
+    return null
+  }
+  const userId = item[userField]
+  if (!userId) {
+    return null
+  }
+  return `/users/${userId}`
+}
+
+watch(
+  () => props.userField,
+  async (userField) => {
+    const apiPath = getUserApiPath(userField, props.item)
+    if (!apiPath) {
+      return
+    }
+    const avatarId = await getDataUser(apiPath)
+    if (!avatarId) {
+      userAvatar.value = null
+      return
+    }
+    userAvatar.value = `/assets/${avatarId}`
+  },
+  {immediate: true},
+)
 
 const isOpenConfirmDialog = ref(false)
 const isShowMenuCard = ref(true)

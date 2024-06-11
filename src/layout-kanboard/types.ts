@@ -13,7 +13,6 @@ export type LayoutOptions = {
   showUngrouped: boolean
   showIndex: boolean
   enableInfiniteScroll: boolean
-
   groupByField?: string
   iconTemplate?: string
   headerTemplate?: string
@@ -46,6 +45,23 @@ export type Item = {
   tags?: string
   item: Record<string, any>
   users: User[]
+}
+
+export type CardItem = {
+  id: number
+  status: string
+  title: string
+  size: string
+  description: string
+  user_assigned: string
+  tags: Array[1]
+  acceptance_criteria: string
+  links: null
+  sort: number
+  user_created: string
+  date_created: string
+  user_updated: string
+  date_updated: string
 }
 
 export type ChangeEvent<T> = {

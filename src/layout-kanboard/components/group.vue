@@ -68,6 +68,7 @@
             :primary-key-field="primaryKeyField"
             :open-change-log="openChangeLog"
             :open-drawer-item-edit="openDrawerItemEdit"
+            :user-field="userField"
             @click="handleEditItem(element, index)"
             @delete-item="handleDeleteItem(index)"
             @edit-item="handleEditItem(element, index)"
@@ -124,7 +125,6 @@ const props = withDefaults(defineProps<Props>(), {
   search: null,
   sort: null,
   isRefresh: false,
-
   groupCollection: null,
   fieldsInCollection: () => [],
   groupedItems: () => [],
@@ -153,6 +153,7 @@ const {
   filter: originFilter,
   collection: collectionKey,
   search,
+  userField,
   layoutOptions,
 } = toRefs(props)
 

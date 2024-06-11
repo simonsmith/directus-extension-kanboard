@@ -612,6 +612,7 @@ export default defineLayout({
           titleField.value,
           textField.value,
           tagsField.value,
+          userField.value,
           dateField.value,
         ].forEach((val) => {
           if (val !== null) fields.push(val)
